@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882E7BD417C70169001EFB3D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882E7BD317C70169001EFB3D /* AVFoundation.framework */; };
+		882E7BD617C70519001EFB3D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882E7BD517C70519001EFB3D /* AssetsLibrary.framework */; };
+		88E23D1017C6CE0A00A097E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E23D0F17C6CE0A00A097E6 /* Foundation.framework */; };
+		88E23D1217C6CE0A00A097E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E23D1117C6CE0A00A097E6 /* CoreGraphics.framework */; };
+		88E23D1417C6CE0A00A097E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E23D1317C6CE0A00A097E6 /* UIKit.framework */; };
+		88E23D1A17C6CE0A00A097E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88E23D1817C6CE0A00A097E6 /* InfoPlist.strings */; };
+		88E23D1C17C6CE0A00A097E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E23D1B17C6CE0A00A097E6 /* main.m */; };
+		88E23D2017C6CE0A00A097E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E23D1F17C6CE0A00A097E6 /* AppDelegate.m */; };
+		88E23D2317C6CE0A00A097E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E23D2117C6CE0A00A097E6 /* Main.storyboard */; };
+		88E23D2617C6CE0A00A097E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E23D2517C6CE0A00A097E6 /* ViewController.m */; };
+		88E23D2817C6CE0A00A097E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E23D2717C6CE0A00A097E6 /* Images.xcassets */; };
+		88E23D2F17C6CE0A00A097E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E23D2E17C6CE0A00A097E6 /* XCTest.framework */; };
+		88E23D3017C6CE0A00A097E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E23D0F17C6CE0A00A097E6 /* Foundation.framework */; };
+		88E23D3117C6CE0A00A097E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E23D1317C6CE0A00A097E6 /* UIKit.framework */; };
+		88E23D3917C6CE0A00A097E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88E23D3717C6CE0A00A097E6 /* InfoPlist.strings */; };
+		88E23D3B17C6CE0A00A097E6 /* Recipe_9_5__Displaying_Camera_PreviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E23D3A17C6CE0A00A097E6 /* Recipe_9_5__Displaying_Camera_PreviewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88E23D3217C6CE0A00A097E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88E23D0417C6CE0A00A097E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E23D0B17C6CE0A00A097E6;
+			remoteInfo = "Recipe 9-5: Displaying Camera Preview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		882E7BD317C70169001EFB3D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		882E7BD517C70519001EFB3D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		88E23D0C17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 9-8 Capturing Video Frames.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E23D0F17C6CE0A00A097E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88E23D1117C6CE0A00A097E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88E23D1317C6CE0A00A097E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88E23D1717C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 9-8 Capturing Video Frames-Info.plist"; sourceTree = "<group>"; };
+		88E23D1917C6CE0A00A097E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88E23D1B17C6CE0A00A097E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88E23D1D17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 9-8 Capturing Video Frames-Prefix.pch"; sourceTree = "<group>"; };
+		88E23D1E17C6CE0A00A097E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88E23D1F17C6CE0A00A097E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88E23D2217C6CE0A00A097E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88E23D2417C6CE0A00A097E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88E23D2517C6CE0A00A097E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88E23D2717C6CE0A00A097E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88E23D2D17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video FramesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 9-8 Capturing Video FramesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E23D2E17C6CE0A00A097E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88E23D3617C6CE0A00A097E6 /* Recipe 9-8 Capturing Video FramesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 9-8 Capturing Video FramesTests-Info.plist"; sourceTree = "<group>"; };
+		88E23D3817C6CE0A00A097E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88E23D3A17C6CE0A00A097E6 /* Recipe_9_5__Displaying_Camera_PreviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_9_5__Displaying_Camera_PreviewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88E23D0917C6CE0A00A097E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882E7BD617C70519001EFB3D /* AssetsLibrary.framework in Frameworks */,
+				882E7BD417C70169001EFB3D /* AVFoundation.framework in Frameworks */,
+				88E23D1217C6CE0A00A097E6 /* CoreGraphics.framework in Frameworks */,
+				88E23D1417C6CE0A00A097E6 /* UIKit.framework in Frameworks */,
+				88E23D1017C6CE0A00A097E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E23D2A17C6CE0A00A097E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E23D2F17C6CE0A00A097E6 /* XCTest.framework in Frameworks */,
+				88E23D3117C6CE0A00A097E6 /* UIKit.framework in Frameworks */,
+				88E23D3017C6CE0A00A097E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88E23D0317C6CE0A00A097E6 = {
+			isa = PBXGroup;
+			children = (
+				88E23D1517C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames */,
+				88E23D3417C6CE0A00A097E6 /* Recipe 9-8 Capturing Video FramesTests */,
+				88E23D0E17C6CE0A00A097E6 /* Frameworks */,
+				88E23D0D17C6CE0A00A097E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88E23D0D17C6CE0A00A097E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88E23D0C17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames.app */,
+				88E23D2D17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video FramesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E23D0E17C6CE0A00A097E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882E7BD517C70519001EFB3D /* AssetsLibrary.framework */,
+				882E7BD317C70169001EFB3D /* AVFoundation.framework */,
+				88E23D0F17C6CE0A00A097E6 /* Foundation.framework */,
+				88E23D1117C6CE0A00A097E6 /* CoreGraphics.framework */,
+				88E23D1317C6CE0A00A097E6 /* UIKit.framework */,
+				88E23D2E17C6CE0A00A097E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88E23D1517C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames */ = {
+			isa = PBXGroup;
+			children = (
+				88E23D1E17C6CE0A00A097E6 /* AppDelegate.h */,
+				88E23D1F17C6CE0A00A097E6 /* AppDelegate.m */,
+				88E23D2117C6CE0A00A097E6 /* Main.storyboard */,
+				88E23D2417C6CE0A00A097E6 /* ViewController.h */,
+				88E23D2517C6CE0A00A097E6 /* ViewController.m */,
+				88E23D2717C6CE0A00A097E6 /* Images.xcassets */,
+				88E23D1617C6CE0A00A097E6 /* Supporting Files */,
+			);
+			name = "Recipe 9-8 Capturing Video Frames";
+			path = "Recipe 9-5: Displaying Camera Preview";
+			sourceTree = "<group>";
+		};
+		88E23D1617C6CE0A00A097E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E23D1717C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames-Info.plist */,
+				88E23D1817C6CE0A00A097E6 /* InfoPlist.strings */,
+				88E23D1B17C6CE0A00A097E6 /* main.m */,
+				88E23D1D17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88E23D3417C6CE0A00A097E6 /* Recipe 9-8 Capturing Video FramesTests */ = {
+			isa = PBXGroup;
+			children = (
+				88E23D3A17C6CE0A00A097E6 /* Recipe_9_5__Displaying_Camera_PreviewTests.m */,
+				88E23D3517C6CE0A00A097E6 /* Supporting Files */,
+			);
+			name = "Recipe 9-8 Capturing Video FramesTests";
+			path = "Recipe 9-5: Displaying Camera PreviewTests";
+			sourceTree = "<group>";
+		};
+		88E23D3517C6CE0A00A097E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E23D3617C6CE0A00A097E6 /* Recipe 9-8 Capturing Video FramesTests-Info.plist */,
+				88E23D3717C6CE0A00A097E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88E23D0B17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E23D3E17C6CE0A00A097E6 /* Build configuration list for PBXNativeTarget "Recipe 9-8 Capturing Video Frames" */;
+			buildPhases = (
+				88E23D0817C6CE0A00A097E6 /* Sources */,
+				88E23D0917C6CE0A00A097E6 /* Frameworks */,
+				88E23D0A17C6CE0A00A097E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 9-8 Capturing Video Frames";
+			productName = "Recipe 9-5: Displaying Camera Preview";
+			productReference = 88E23D0C17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88E23D2C17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video FramesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E23D4117C6CE0A00A097E6 /* Build configuration list for PBXNativeTarget "Recipe 9-8 Capturing Video FramesTests" */;
+			buildPhases = (
+				88E23D2917C6CE0A00A097E6 /* Sources */,
+				88E23D2A17C6CE0A00A097E6 /* Frameworks */,
+				88E23D2B17C6CE0A00A097E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E23D3317C6CE0A00A097E6 /* PBXTargetDependency */,
+			);
+			name = "Recipe 9-8 Capturing Video FramesTests";
+			productName = "Recipe 9-5: Displaying Camera PreviewTests";
+			productReference = 88E23D2D17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video FramesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88E23D0417C6CE0A00A097E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					88E23D2C17C6CE0A00A097E6 = {
+						TestTargetID = 88E23D0B17C6CE0A00A097E6;
+					};
+				};
+			};
+			buildConfigurationList = 88E23D0717C6CE0A00A097E6 /* Build configuration list for PBXProject "Recipe 9-8 Capturing Video Frames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88E23D0317C6CE0A00A097E6;
+			productRefGroup = 88E23D0D17C6CE0A00A097E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E23D0B17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames */,
+				88E23D2C17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video FramesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88E23D0A17C6CE0A00A097E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E23D2817C6CE0A00A097E6 /* Images.xcassets in Resources */,
+				88E23D1A17C6CE0A00A097E6 /* InfoPlist.strings in Resources */,
+				88E23D2317C6CE0A00A097E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E23D2B17C6CE0A00A097E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E23D3917C6CE0A00A097E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88E23D0817C6CE0A00A097E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E23D2617C6CE0A00A097E6 /* ViewController.m in Sources */,
+				88E23D2017C6CE0A00A097E6 /* AppDelegate.m in Sources */,
+				88E23D1C17C6CE0A00A097E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E23D2917C6CE0A00A097E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E23D3B17C6CE0A00A097E6 /* Recipe_9_5__Displaying_Camera_PreviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88E23D3317C6CE0A00A097E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88E23D0B17C6CE0A00A097E6 /* Recipe 9-8 Capturing Video Frames */;
+			targetProxy = 88E23D3217C6CE0A00A097E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88E23D1817C6CE0A00A097E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E23D1917C6CE0A00A097E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88E23D2117C6CE0A00A097E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E23D2217C6CE0A00A097E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88E23D3717C6CE0A00A097E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E23D3817C6CE0A00A097E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88E23D3C17C6CE0A00A097E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88E23D3D17C6CE0A00A097E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88E23D3F17C6CE0A00A097E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9-5: Displaying Camera Preview/Recipe 9-8 Capturing Video Frames-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9-5: Displaying Camera Preview/Recipe 9-8 Capturing Video Frames-Info.plist";
+				PRODUCT_NAME = "Recipe 9-8 Capturing Video Frames";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88E23D4017C6CE0A00A097E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9-5: Displaying Camera Preview/Recipe 9-8 Capturing Video Frames-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9-5: Displaying Camera Preview/Recipe 9-8 Capturing Video Frames-Info.plist";
+				PRODUCT_NAME = "Recipe 9-8 Capturing Video Frames";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88E23D4217C6CE0A00A097E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 9-5: Displaying Camera Preview.app/Recipe 9-5: Displaying Camera Preview";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9-5: Displaying Camera Preview/Recipe 9-5: Displaying Camera Preview-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 9-5: Displaying Camera PreviewTests/Recipe 9-8 Capturing Video FramesTests-Info.plist";
+				PRODUCT_NAME = "Recipe 9-8 Capturing Video FramesTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88E23D4317C6CE0A00A097E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 9-5: Displaying Camera Preview.app/Recipe 9-5: Displaying Camera Preview";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9-5: Displaying Camera Preview/Recipe 9-5: Displaying Camera Preview-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9-5: Displaying Camera PreviewTests/Recipe 9-8 Capturing Video FramesTests-Info.plist";
+				PRODUCT_NAME = "Recipe 9-8 Capturing Video FramesTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88E23D0717C6CE0A00A097E6 /* Build configuration list for PBXProject "Recipe 9-8 Capturing Video Frames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E23D3C17C6CE0A00A097E6 /* Debug */,
+				88E23D3D17C6CE0A00A097E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E23D3E17C6CE0A00A097E6 /* Build configuration list for PBXNativeTarget "Recipe 9-8 Capturing Video Frames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E23D3F17C6CE0A00A097E6 /* Debug */,
+				88E23D4017C6CE0A00A097E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E23D4117C6CE0A00A097E6 /* Build configuration list for PBXNativeTarget "Recipe 9-8 Capturing Video FramesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E23D4217C6CE0A00A097E6 /* Debug */,
+				88E23D4317C6CE0A00A097E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88E23D0417C6CE0A00A097E6 /* Project object */;
+}

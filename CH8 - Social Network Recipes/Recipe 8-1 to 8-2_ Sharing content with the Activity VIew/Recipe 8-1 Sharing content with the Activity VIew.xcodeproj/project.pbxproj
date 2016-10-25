@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88CF862017BC942E003D7C86 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF861F17BC942E003D7C86 /* Social.framework */; };
+		88DB218E17BB36D00042E115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DB218D17BB36D00042E115 /* Foundation.framework */; };
+		88DB219017BB36D00042E115 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DB218F17BB36D00042E115 /* CoreGraphics.framework */; };
+		88DB219217BB36D00042E115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DB219117BB36D00042E115 /* UIKit.framework */; };
+		88DB219817BB36D00042E115 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88DB219617BB36D00042E115 /* InfoPlist.strings */; };
+		88DB219A17BB36D00042E115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DB219917BB36D00042E115 /* main.m */; };
+		88DB219E17BB36D00042E115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DB219D17BB36D00042E115 /* AppDelegate.m */; };
+		88DB21A117BB36D00042E115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DB219F17BB36D00042E115 /* Main.storyboard */; };
+		88DB21A417BB36D00042E115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DB21A317BB36D00042E115 /* ViewController.m */; };
+		88DB21A617BB36D00042E115 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DB21A517BB36D00042E115 /* Images.xcassets */; };
+		88DB21AD17BB36D00042E115 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DB21AC17BB36D00042E115 /* XCTest.framework */; };
+		88DB21AE17BB36D00042E115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DB218D17BB36D00042E115 /* Foundation.framework */; };
+		88DB21AF17BB36D00042E115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DB219117BB36D00042E115 /* UIKit.framework */; };
+		88DB21B717BB36D00042E115 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88DB21B517BB36D00042E115 /* InfoPlist.strings */; };
+		88DB21B917BB36D00042E115 /* Recipe_8_1__Sharing_content_with_the_Activity_VIewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DB21B817BB36D00042E115 /* Recipe_8_1__Sharing_content_with_the_Activity_VIewTests.m */; };
+		88DB21C417BC74360042E115 /* MyLogActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DB21C317BC74360042E115 /* MyLogActivity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88DB21B017BB36D00042E115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88DB218217BB36D00042E115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88DB218917BB36D00042E115;
+			remoteInfo = "Recipe 8-1: Sharing content with the Activity VIew";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88CF861F17BC942E003D7C86 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		88DB218A17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 8-1 Sharing content with the Activity VIew.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DB218D17BB36D00042E115 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88DB218F17BB36D00042E115 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88DB219117BB36D00042E115 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88DB219517BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 8-1 Sharing content with the Activity VIew-Info.plist"; sourceTree = "<group>"; };
+		88DB219717BB36D00042E115 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88DB219917BB36D00042E115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88DB219B17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 8-1 Sharing content with the Activity VIew-Prefix.pch"; sourceTree = "<group>"; };
+		88DB219C17BB36D00042E115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88DB219D17BB36D00042E115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88DB21A017BB36D00042E115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88DB21A217BB36D00042E115 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88DB21A317BB36D00042E115 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88DB21A517BB36D00042E115 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88DB21AB17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 8-1 Sharing content with the Activity VIewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DB21AC17BB36D00042E115 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88DB21B417BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 8-1 Sharing content with the Activity VIewTests-Info.plist"; sourceTree = "<group>"; };
+		88DB21B617BB36D00042E115 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88DB21B817BB36D00042E115 /* Recipe_8_1__Sharing_content_with_the_Activity_VIewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_8_1__Sharing_content_with_the_Activity_VIewTests.m; sourceTree = "<group>"; };
+		88DB21C217BC74360042E115 /* MyLogActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLogActivity.h; sourceTree = "<group>"; };
+		88DB21C317BC74360042E115 /* MyLogActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLogActivity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88DB218717BB36D00042E115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CF862017BC942E003D7C86 /* Social.framework in Frameworks */,
+				88DB219017BB36D00042E115 /* CoreGraphics.framework in Frameworks */,
+				88DB219217BB36D00042E115 /* UIKit.framework in Frameworks */,
+				88DB218E17BB36D00042E115 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DB21A817BB36D00042E115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB21AD17BB36D00042E115 /* XCTest.framework in Frameworks */,
+				88DB21AF17BB36D00042E115 /* UIKit.framework in Frameworks */,
+				88DB21AE17BB36D00042E115 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88DB218117BB36D00042E115 = {
+			isa = PBXGroup;
+			children = (
+				88DB219317BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew */,
+				88DB21B217BB36D00042E115 /* Recipe 8-1: Sharing content with the Activity VIewTests */,
+				88DB218C17BB36D00042E115 /* Frameworks */,
+				88DB218B17BB36D00042E115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88DB218B17BB36D00042E115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88DB218A17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew.app */,
+				88DB21AB17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88DB218C17BB36D00042E115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88CF861F17BC942E003D7C86 /* Social.framework */,
+				88DB218D17BB36D00042E115 /* Foundation.framework */,
+				88DB218F17BB36D00042E115 /* CoreGraphics.framework */,
+				88DB219117BB36D00042E115 /* UIKit.framework */,
+				88DB21AC17BB36D00042E115 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88DB219317BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew */ = {
+			isa = PBXGroup;
+			children = (
+				88DB219C17BB36D00042E115 /* AppDelegate.h */,
+				88DB219D17BB36D00042E115 /* AppDelegate.m */,
+				88DB219F17BB36D00042E115 /* Main.storyboard */,
+				88DB21A217BB36D00042E115 /* ViewController.h */,
+				88DB21A317BB36D00042E115 /* ViewController.m */,
+				88DB21C217BC74360042E115 /* MyLogActivity.h */,
+				88DB21C317BC74360042E115 /* MyLogActivity.m */,
+				88DB21A517BB36D00042E115 /* Images.xcassets */,
+				88DB219417BB36D00042E115 /* Supporting Files */,
+			);
+			name = "Recipe 8-1 Sharing content with the Activity VIew";
+			path = "Recipe 8-1: Sharing content with the Activity VIew";
+			sourceTree = "<group>";
+		};
+		88DB219417BB36D00042E115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88DB219517BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew-Info.plist */,
+				88DB219617BB36D00042E115 /* InfoPlist.strings */,
+				88DB219917BB36D00042E115 /* main.m */,
+				88DB219B17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88DB21B217BB36D00042E115 /* Recipe 8-1: Sharing content with the Activity VIewTests */ = {
+			isa = PBXGroup;
+			children = (
+				88DB21B817BB36D00042E115 /* Recipe_8_1__Sharing_content_with_the_Activity_VIewTests.m */,
+				88DB21B317BB36D00042E115 /* Supporting Files */,
+			);
+			path = "Recipe 8-1: Sharing content with the Activity VIewTests";
+			sourceTree = "<group>";
+		};
+		88DB21B317BB36D00042E115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88DB21B417BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIewTests-Info.plist */,
+				88DB21B517BB36D00042E115 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88DB218917BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88DB21BC17BB36D00042E115 /* Build configuration list for PBXNativeTarget "Recipe 8-1 Sharing content with the Activity VIew" */;
+			buildPhases = (
+				88DB218617BB36D00042E115 /* Sources */,
+				88DB218717BB36D00042E115 /* Frameworks */,
+				88DB218817BB36D00042E115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 8-1 Sharing content with the Activity VIew";
+			productName = "Recipe 8-1: Sharing content with the Activity VIew";
+			productReference = 88DB218A17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88DB21AA17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88DB21BF17BB36D00042E115 /* Build configuration list for PBXNativeTarget "Recipe 8-1 Sharing content with the Activity VIewTests" */;
+			buildPhases = (
+				88DB21A717BB36D00042E115 /* Sources */,
+				88DB21A817BB36D00042E115 /* Frameworks */,
+				88DB21A917BB36D00042E115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88DB21B117BB36D00042E115 /* PBXTargetDependency */,
+			);
+			name = "Recipe 8-1 Sharing content with the Activity VIewTests";
+			productName = "Recipe 8-1: Sharing content with the Activity VIewTests";
+			productReference = 88DB21AB17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88DB218217BB36D00042E115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					88DB21AA17BB36D00042E115 = {
+						TestTargetID = 88DB218917BB36D00042E115;
+					};
+				};
+			};
+			buildConfigurationList = 88DB218517BB36D00042E115 /* Build configuration list for PBXProject "Recipe 8-1 Sharing content with the Activity VIew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88DB218117BB36D00042E115;
+			productRefGroup = 88DB218B17BB36D00042E115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88DB218917BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew */,
+				88DB21AA17BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88DB218817BB36D00042E115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB21A617BB36D00042E115 /* Images.xcassets in Resources */,
+				88DB219817BB36D00042E115 /* InfoPlist.strings in Resources */,
+				88DB21A117BB36D00042E115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DB21A917BB36D00042E115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB21B717BB36D00042E115 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88DB218617BB36D00042E115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB21A417BB36D00042E115 /* ViewController.m in Sources */,
+				88DB219E17BB36D00042E115 /* AppDelegate.m in Sources */,
+				88DB219A17BB36D00042E115 /* main.m in Sources */,
+				88DB21C417BC74360042E115 /* MyLogActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DB21A717BB36D00042E115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB21B917BB36D00042E115 /* Recipe_8_1__Sharing_content_with_the_Activity_VIewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88DB21B117BB36D00042E115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88DB218917BB36D00042E115 /* Recipe 8-1 Sharing content with the Activity VIew */;
+			targetProxy = 88DB21B017BB36D00042E115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88DB219617BB36D00042E115 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88DB219717BB36D00042E115 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88DB219F17BB36D00042E115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88DB21A017BB36D00042E115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88DB21B517BB36D00042E115 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88DB21B617BB36D00042E115 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88DB21BA17BB36D00042E115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88DB21BB17BB36D00042E115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88DB21BD17BB36D00042E115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 8-1: Sharing content with the Activity VIew/Recipe 8-1 Sharing content with the Activity VIew-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 8-1: Sharing content with the Activity VIew/Recipe 8-1 Sharing content with the Activity VIew-Info.plist";
+				PRODUCT_NAME = "Recipe 8-1 Sharing content with the Activity VIew";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88DB21BE17BB36D00042E115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 8-1: Sharing content with the Activity VIew/Recipe 8-1 Sharing content with the Activity VIew-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 8-1: Sharing content with the Activity VIew/Recipe 8-1 Sharing content with the Activity VIew-Info.plist";
+				PRODUCT_NAME = "Recipe 8-1 Sharing content with the Activity VIew";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88DB21C017BB36D00042E115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 8-1: Sharing content with the Activity VIew.app/Recipe 8-1: Sharing content with the Activity VIew";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 8-1: Sharing content with the Activity VIew/Recipe 8-1: Sharing content with the Activity VIew-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 8-1: Sharing content with the Activity VIewTests/Recipe 8-1 Sharing content with the Activity VIewTests-Info.plist";
+				PRODUCT_NAME = "Recipe 8-1 Sharing content with the Activity VIewTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88DB21C117BB36D00042E115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 8-1: Sharing content with the Activity VIew.app/Recipe 8-1: Sharing content with the Activity VIew";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 8-1: Sharing content with the Activity VIew/Recipe 8-1: Sharing content with the Activity VIew-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 8-1: Sharing content with the Activity VIewTests/Recipe 8-1 Sharing content with the Activity VIewTests-Info.plist";
+				PRODUCT_NAME = "Recipe 8-1 Sharing content with the Activity VIewTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88DB218517BB36D00042E115 /* Build configuration list for PBXProject "Recipe 8-1 Sharing content with the Activity VIew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DB21BA17BB36D00042E115 /* Debug */,
+				88DB21BB17BB36D00042E115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88DB21BC17BB36D00042E115 /* Build configuration list for PBXNativeTarget "Recipe 8-1 Sharing content with the Activity VIew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DB21BD17BB36D00042E115 /* Debug */,
+				88DB21BE17BB36D00042E115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88DB21BF17BB36D00042E115 /* Build configuration list for PBXNativeTarget "Recipe 8-1 Sharing content with the Activity VIewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DB21C017BB36D00042E115 /* Debug */,
+				88DB21C117BB36D00042E115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88DB218217BB36D00042E115 /* Project object */;
+}

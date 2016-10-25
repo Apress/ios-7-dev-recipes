@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888B94C117B46167000B5911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B94C017B46167000B5911 /* Foundation.framework */; };
+		888B94C317B46167000B5911 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B94C217B46167000B5911 /* CoreGraphics.framework */; };
+		888B94C517B46167000B5911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B94C417B46167000B5911 /* UIKit.framework */; };
+		888B94CB17B46167000B5911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888B94C917B46167000B5911 /* InfoPlist.strings */; };
+		888B94CD17B46167000B5911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B94CC17B46167000B5911 /* main.m */; };
+		888B94D117B46167000B5911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B94D017B46167000B5911 /* AppDelegate.m */; };
+		888B94D417B46167000B5911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888B94D217B46167000B5911 /* Main.storyboard */; };
+		888B94D717B46167000B5911 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B94D617B46167000B5911 /* ViewController.m */; };
+		888B94D917B46167000B5911 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888B94D817B46167000B5911 /* Images.xcassets */; };
+		888B94E017B46167000B5911 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B94DF17B46167000B5911 /* XCTest.framework */; };
+		888B94E117B46167000B5911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B94C017B46167000B5911 /* Foundation.framework */; };
+		888B94E217B46167000B5911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B94C417B46167000B5911 /* UIKit.framework */; };
+		888B94EA17B46167000B5911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888B94E817B46167000B5911 /* InfoPlist.strings */; };
+		888B94EC17B46167000B5911 /* Recipe_6_1__Recognizing_Shake_EventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B94EB17B46167000B5911 /* Recipe_6_1__Recognizing_Shake_EventsTests.m */; };
+		888B94F717B4621C000B5911 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B94F617B4621C000B5911 /* MainWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888B94E317B46167000B5911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888B94B517B46167000B5911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888B94BC17B46167000B5911;
+			remoteInfo = "Recipe 6-1: Recognizing Shake Events";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		888B94BD17B46167000B5911 /* Recipe 6-1 Recognizing Shake Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 6-1 Recognizing Shake Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888B94C017B46167000B5911 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		888B94C217B46167000B5911 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		888B94C417B46167000B5911 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		888B94C817B46167000B5911 /* Recipe 6-1 Recognizing Shake Events-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 6-1 Recognizing Shake Events-Info.plist"; sourceTree = "<group>"; };
+		888B94CA17B46167000B5911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		888B94CC17B46167000B5911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		888B94CE17B46167000B5911 /* Recipe 6-1 Recognizing Shake Events-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 6-1 Recognizing Shake Events-Prefix.pch"; sourceTree = "<group>"; };
+		888B94CF17B46167000B5911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		888B94D017B46167000B5911 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		888B94D317B46167000B5911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888B94D517B46167000B5911 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		888B94D617B46167000B5911 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		888B94D817B46167000B5911 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		888B94DE17B46167000B5911 /* Recipe 6-1 Recognizing Shake EventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 6-1 Recognizing Shake EventsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888B94DF17B46167000B5911 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		888B94E717B46167000B5911 /* Recipe 6-1 Recognizing Shake EventsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 6-1 Recognizing Shake EventsTests-Info.plist"; sourceTree = "<group>"; };
+		888B94E917B46167000B5911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		888B94EB17B46167000B5911 /* Recipe_6_1__Recognizing_Shake_EventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_6_1__Recognizing_Shake_EventsTests.m; sourceTree = "<group>"; };
+		888B94F517B4621C000B5911 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		888B94F617B4621C000B5911 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888B94BA17B46167000B5911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B94C317B46167000B5911 /* CoreGraphics.framework in Frameworks */,
+				888B94C517B46167000B5911 /* UIKit.framework in Frameworks */,
+				888B94C117B46167000B5911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888B94DB17B46167000B5911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B94E017B46167000B5911 /* XCTest.framework in Frameworks */,
+				888B94E217B46167000B5911 /* UIKit.framework in Frameworks */,
+				888B94E117B46167000B5911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888B94B417B46167000B5911 = {
+			isa = PBXGroup;
+			children = (
+				888B94C617B46167000B5911 /* Recipe 6-1 Recognizing Shake Events */,
+				888B94E517B46167000B5911 /* Recipe 6-1 Recognizing Shake EventsTests */,
+				888B94BF17B46167000B5911 /* Frameworks */,
+				888B94BE17B46167000B5911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888B94BE17B46167000B5911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888B94BD17B46167000B5911 /* Recipe 6-1 Recognizing Shake Events.app */,
+				888B94DE17B46167000B5911 /* Recipe 6-1 Recognizing Shake EventsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888B94BF17B46167000B5911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888B94C017B46167000B5911 /* Foundation.framework */,
+				888B94C217B46167000B5911 /* CoreGraphics.framework */,
+				888B94C417B46167000B5911 /* UIKit.framework */,
+				888B94DF17B46167000B5911 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		888B94C617B46167000B5911 /* Recipe 6-1 Recognizing Shake Events */ = {
+			isa = PBXGroup;
+			children = (
+				888B94CF17B46167000B5911 /* AppDelegate.h */,
+				888B94D017B46167000B5911 /* AppDelegate.m */,
+				888B94D217B46167000B5911 /* Main.storyboard */,
+				888B94F517B4621C000B5911 /* MainWindow.h */,
+				888B94F617B4621C000B5911 /* MainWindow.m */,
+				888B94D517B46167000B5911 /* ViewController.h */,
+				888B94D617B46167000B5911 /* ViewController.m */,
+				888B94D817B46167000B5911 /* Images.xcassets */,
+				888B94C717B46167000B5911 /* Supporting Files */,
+			);
+			name = "Recipe 6-1 Recognizing Shake Events";
+			path = "Recipe 6-1: Recognizing Shake Events";
+			sourceTree = "<group>";
+		};
+		888B94C717B46167000B5911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888B94C817B46167000B5911 /* Recipe 6-1 Recognizing Shake Events-Info.plist */,
+				888B94C917B46167000B5911 /* InfoPlist.strings */,
+				888B94CC17B46167000B5911 /* main.m */,
+				888B94CE17B46167000B5911 /* Recipe 6-1 Recognizing Shake Events-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		888B94E517B46167000B5911 /* Recipe 6-1 Recognizing Shake EventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				888B94EB17B46167000B5911 /* Recipe_6_1__Recognizing_Shake_EventsTests.m */,
+				888B94E617B46167000B5911 /* Supporting Files */,
+			);
+			name = "Recipe 6-1 Recognizing Shake EventsTests";
+			path = "Recipe 6-1: Recognizing Shake EventsTests";
+			sourceTree = "<group>";
+		};
+		888B94E617B46167000B5911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888B94E717B46167000B5911 /* Recipe 6-1 Recognizing Shake EventsTests-Info.plist */,
+				888B94E817B46167000B5911 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888B94BC17B46167000B5911 /* Recipe 6-1 Recognizing Shake Events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888B94EF17B46167000B5911 /* Build configuration list for PBXNativeTarget "Recipe 6-1 Recognizing Shake Events" */;
+			buildPhases = (
+				888B94B917B46167000B5911 /* Sources */,
+				888B94BA17B46167000B5911 /* Frameworks */,
+				888B94BB17B46167000B5911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 6-1 Recognizing Shake Events";
+			productName = "Recipe 6-1: Recognizing Shake Events";
+			productReference = 888B94BD17B46167000B5911 /* Recipe 6-1 Recognizing Shake Events.app */;
+			productType = "com.apple.product-type.application";
+		};
+		888B94DD17B46167000B5911 /* Recipe 6-1 Recognizing Shake EventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888B94F217B46167000B5911 /* Build configuration list for PBXNativeTarget "Recipe 6-1 Recognizing Shake EventsTests" */;
+			buildPhases = (
+				888B94DA17B46167000B5911 /* Sources */,
+				888B94DB17B46167000B5911 /* Frameworks */,
+				888B94DC17B46167000B5911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888B94E417B46167000B5911 /* PBXTargetDependency */,
+			);
+			name = "Recipe 6-1 Recognizing Shake EventsTests";
+			productName = "Recipe 6-1: Recognizing Shake EventsTests";
+			productReference = 888B94DE17B46167000B5911 /* Recipe 6-1 Recognizing Shake EventsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888B94B517B46167000B5911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					888B94DD17B46167000B5911 = {
+						TestTargetID = 888B94BC17B46167000B5911;
+					};
+				};
+			};
+			buildConfigurationList = 888B94B817B46167000B5911 /* Build configuration list for PBXProject "Recipe 6-1 Recognizing Shake Events" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888B94B417B46167000B5911;
+			productRefGroup = 888B94BE17B46167000B5911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888B94BC17B46167000B5911 /* Recipe 6-1 Recognizing Shake Events */,
+				888B94DD17B46167000B5911 /* Recipe 6-1 Recognizing Shake EventsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888B94BB17B46167000B5911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B94D917B46167000B5911 /* Images.xcassets in Resources */,
+				888B94CB17B46167000B5911 /* InfoPlist.strings in Resources */,
+				888B94D417B46167000B5911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888B94DC17B46167000B5911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B94EA17B46167000B5911 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888B94B917B46167000B5911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B94F717B4621C000B5911 /* MainWindow.m in Sources */,
+				888B94D717B46167000B5911 /* ViewController.m in Sources */,
+				888B94D117B46167000B5911 /* AppDelegate.m in Sources */,
+				888B94CD17B46167000B5911 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888B94DA17B46167000B5911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B94EC17B46167000B5911 /* Recipe_6_1__Recognizing_Shake_EventsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		888B94E417B46167000B5911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888B94BC17B46167000B5911 /* Recipe 6-1 Recognizing Shake Events */;
+			targetProxy = 888B94E317B46167000B5911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		888B94C917B46167000B5911 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888B94CA17B46167000B5911 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		888B94D217B46167000B5911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888B94D317B46167000B5911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		888B94E817B46167000B5911 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888B94E917B46167000B5911 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		888B94ED17B46167000B5911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		888B94EE17B46167000B5911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888B94F017B46167000B5911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6-1: Recognizing Shake Events/Recipe 6-1 Recognizing Shake Events-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6-1: Recognizing Shake Events/Recipe 6-1 Recognizing Shake Events-Info.plist";
+				PRODUCT_NAME = "Recipe 6-1 Recognizing Shake Events";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		888B94F117B46167000B5911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6-1: Recognizing Shake Events/Recipe 6-1 Recognizing Shake Events-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6-1: Recognizing Shake Events/Recipe 6-1 Recognizing Shake Events-Info.plist";
+				PRODUCT_NAME = "Recipe 6-1 Recognizing Shake Events";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		888B94F317B46167000B5911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 6-1: Recognizing Shake Events.app/Recipe 6-1: Recognizing Shake Events";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6-1: Recognizing Shake Events/Recipe 6-1: Recognizing Shake Events-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 6-1: Recognizing Shake EventsTests/Recipe 6-1 Recognizing Shake EventsTests-Info.plist";
+				PRODUCT_NAME = "Recipe 6-1 Recognizing Shake EventsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		888B94F417B46167000B5911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 6-1: Recognizing Shake Events.app/Recipe 6-1: Recognizing Shake Events";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6-1: Recognizing Shake Events/Recipe 6-1: Recognizing Shake Events-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6-1: Recognizing Shake EventsTests/Recipe 6-1 Recognizing Shake EventsTests-Info.plist";
+				PRODUCT_NAME = "Recipe 6-1 Recognizing Shake EventsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888B94B817B46167000B5911 /* Build configuration list for PBXProject "Recipe 6-1 Recognizing Shake Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888B94ED17B46167000B5911 /* Debug */,
+				888B94EE17B46167000B5911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888B94EF17B46167000B5911 /* Build configuration list for PBXNativeTarget "Recipe 6-1 Recognizing Shake Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888B94F017B46167000B5911 /* Debug */,
+				888B94F117B46167000B5911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888B94F217B46167000B5911 /* Build configuration list for PBXNativeTarget "Recipe 6-1 Recognizing Shake EventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888B94F317B46167000B5911 /* Debug */,
+				888B94F417B46167000B5911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 888B94B517B46167000B5911 /* Project object */;
+}

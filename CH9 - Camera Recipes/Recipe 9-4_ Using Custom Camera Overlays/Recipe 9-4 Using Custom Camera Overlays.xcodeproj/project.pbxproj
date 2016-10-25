@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88CF870717C59DBF003D7C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF870617C59DBF003D7C86 /* Foundation.framework */; };
+		88CF870917C59DBF003D7C86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF870817C59DBF003D7C86 /* CoreGraphics.framework */; };
+		88CF870B17C59DBF003D7C86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF870A17C59DBF003D7C86 /* UIKit.framework */; };
+		88CF871117C59DBF003D7C86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88CF870F17C59DBF003D7C86 /* InfoPlist.strings */; };
+		88CF871317C59DBF003D7C86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF871217C59DBF003D7C86 /* main.m */; };
+		88CF871717C59DBF003D7C86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF871617C59DBF003D7C86 /* AppDelegate.m */; };
+		88CF871A17C59DBF003D7C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CF871817C59DBF003D7C86 /* Main.storyboard */; };
+		88CF871D17C59DBF003D7C86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF871C17C59DBF003D7C86 /* ViewController.m */; };
+		88CF871F17C59DBF003D7C86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CF871E17C59DBF003D7C86 /* Images.xcassets */; };
+		88CF872617C59DBF003D7C86 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF872517C59DBF003D7C86 /* XCTest.framework */; };
+		88CF872717C59DBF003D7C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF870617C59DBF003D7C86 /* Foundation.framework */; };
+		88CF872817C59DBF003D7C86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF870A17C59DBF003D7C86 /* UIKit.framework */; };
+		88CF873017C59DBF003D7C86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88CF872E17C59DBF003D7C86 /* InfoPlist.strings */; };
+		88CF873217C59DBF003D7C86 /* Recipe_9_1__Taking_PicturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF873117C59DBF003D7C86 /* Recipe_9_1__Taking_PicturesTests.m */; };
+		88E23D0217C6A7CD00A097E6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E23D0117C6A7CD00A097E6 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88CF872917C59DBF003D7C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88CF86FB17C59DBF003D7C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88CF870217C59DBF003D7C86;
+			remoteInfo = "Recipe 9-1: Taking Pictures";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88CF870317C59DBF003D7C86 /* Recipe 9-1:Taking Pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Recipe 9-1:Taking Pictures.app"; path = "Recipe 9-4 Taking Pictures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CF870617C59DBF003D7C86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88CF870817C59DBF003D7C86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88CF870A17C59DBF003D7C86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88CF870E17C59DBF003D7C86 /* Recipe 9-1: Taking Pictures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 9-1: Taking Pictures-Info.plist"; sourceTree = "<group>"; };
+		88CF871017C59DBF003D7C86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88CF871217C59DBF003D7C86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88CF871417C59DBF003D7C86 /* Recipe 9-1: Taking Pictures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 9-1: Taking Pictures-Prefix.pch"; sourceTree = "<group>"; };
+		88CF871517C59DBF003D7C86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88CF871617C59DBF003D7C86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88CF871917C59DBF003D7C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88CF871B17C59DBF003D7C86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88CF871C17C59DBF003D7C86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88CF871E17C59DBF003D7C86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88CF872417C59DBF003D7C86 /* Recipe 9-1: Taking PicturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 9-1: Taking PicturesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CF872517C59DBF003D7C86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88CF872D17C59DBF003D7C86 /* Recipe 9-1: Taking PicturesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 9-1: Taking PicturesTests-Info.plist"; sourceTree = "<group>"; };
+		88CF872F17C59DBF003D7C86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88CF873117C59DBF003D7C86 /* Recipe_9_1__Taking_PicturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_9_1__Taking_PicturesTests.m; sourceTree = "<group>"; };
+		88E23D0117C6A7CD00A097E6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88CF870017C59DBF003D7C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E23D0217C6A7CD00A097E6 /* MobileCoreServices.framework in Frameworks */,
+				88CF870917C59DBF003D7C86 /* CoreGraphics.framework in Frameworks */,
+				88CF870B17C59DBF003D7C86 /* UIKit.framework in Frameworks */,
+				88CF870717C59DBF003D7C86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CF872117C59DBF003D7C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CF872617C59DBF003D7C86 /* XCTest.framework in Frameworks */,
+				88CF872817C59DBF003D7C86 /* UIKit.framework in Frameworks */,
+				88CF872717C59DBF003D7C86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88CF86FA17C59DBF003D7C86 = {
+			isa = PBXGroup;
+			children = (
+				88CF870C17C59DBF003D7C86 /* Recipe 9-4 Using Custom Camera Overlays */,
+				88CF872B17C59DBF003D7C86 /* Recipe 9-4 Using Custom Camera Overlays */,
+				88CF870517C59DBF003D7C86 /* Frameworks */,
+				88CF870417C59DBF003D7C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88CF870417C59DBF003D7C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88CF870317C59DBF003D7C86 /* Recipe 9-1:Taking Pictures.app */,
+				88CF872417C59DBF003D7C86 /* Recipe 9-1: Taking PicturesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88CF870517C59DBF003D7C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E23D0117C6A7CD00A097E6 /* MobileCoreServices.framework */,
+				88CF870617C59DBF003D7C86 /* Foundation.framework */,
+				88CF870817C59DBF003D7C86 /* CoreGraphics.framework */,
+				88CF870A17C59DBF003D7C86 /* UIKit.framework */,
+				88CF872517C59DBF003D7C86 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88CF870C17C59DBF003D7C86 /* Recipe 9-4 Using Custom Camera Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				88CF871517C59DBF003D7C86 /* AppDelegate.h */,
+				88CF871617C59DBF003D7C86 /* AppDelegate.m */,
+				88CF871817C59DBF003D7C86 /* Main.storyboard */,
+				88CF871B17C59DBF003D7C86 /* ViewController.h */,
+				88CF871C17C59DBF003D7C86 /* ViewController.m */,
+				88CF871E17C59DBF003D7C86 /* Images.xcassets */,
+				88CF870D17C59DBF003D7C86 /* Supporting Files */,
+			);
+			name = "Recipe 9-4 Using Custom Camera Overlays";
+			path = "Recipe 9-1: Taking Pictures";
+			sourceTree = "<group>";
+		};
+		88CF870D17C59DBF003D7C86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88CF870E17C59DBF003D7C86 /* Recipe 9-1: Taking Pictures-Info.plist */,
+				88CF870F17C59DBF003D7C86 /* InfoPlist.strings */,
+				88CF871217C59DBF003D7C86 /* main.m */,
+				88CF871417C59DBF003D7C86 /* Recipe 9-1: Taking Pictures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88CF872B17C59DBF003D7C86 /* Recipe 9-4 Using Custom Camera Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				88CF873117C59DBF003D7C86 /* Recipe_9_1__Taking_PicturesTests.m */,
+				88CF872C17C59DBF003D7C86 /* Supporting Files */,
+			);
+			name = "Recipe 9-4 Using Custom Camera Overlays";
+			path = "Recipe 9-1: Taking PicturesTests";
+			sourceTree = "<group>";
+		};
+		88CF872C17C59DBF003D7C86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88CF872D17C59DBF003D7C86 /* Recipe 9-1: Taking PicturesTests-Info.plist */,
+				88CF872E17C59DBF003D7C86 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88CF870217C59DBF003D7C86 /* Recipe 9-4 Taking Pictures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88CF873517C59DBF003D7C86 /* Build configuration list for PBXNativeTarget "Recipe 9-4 Taking Pictures" */;
+			buildPhases = (
+				88CF86FF17C59DBF003D7C86 /* Sources */,
+				88CF870017C59DBF003D7C86 /* Frameworks */,
+				88CF870117C59DBF003D7C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 9-4 Taking Pictures";
+			productName = "Recipe 9-1: Taking Pictures";
+			productReference = 88CF870317C59DBF003D7C86 /* Recipe 9-1:Taking Pictures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88CF872317C59DBF003D7C86 /* Recipe 9-1: Taking PicturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88CF873817C59DBF003D7C86 /* Build configuration list for PBXNativeTarget "Recipe 9-1: Taking PicturesTests" */;
+			buildPhases = (
+				88CF872017C59DBF003D7C86 /* Sources */,
+				88CF872117C59DBF003D7C86 /* Frameworks */,
+				88CF872217C59DBF003D7C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88CF872A17C59DBF003D7C86 /* PBXTargetDependency */,
+			);
+			name = "Recipe 9-1: Taking PicturesTests";
+			productName = "Recipe 9-1: Taking PicturesTests";
+			productReference = 88CF872417C59DBF003D7C86 /* Recipe 9-1: Taking PicturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88CF86FB17C59DBF003D7C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					88CF872317C59DBF003D7C86 = {
+						TestTargetID = 88CF870217C59DBF003D7C86;
+					};
+				};
+			};
+			buildConfigurationList = 88CF86FE17C59DBF003D7C86 /* Build configuration list for PBXProject "Recipe 9-4 Using Custom Camera Overlays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88CF86FA17C59DBF003D7C86;
+			productRefGroup = 88CF870417C59DBF003D7C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88CF870217C59DBF003D7C86 /* Recipe 9-4 Taking Pictures */,
+				88CF872317C59DBF003D7C86 /* Recipe 9-1: Taking PicturesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88CF870117C59DBF003D7C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CF871F17C59DBF003D7C86 /* Images.xcassets in Resources */,
+				88CF871117C59DBF003D7C86 /* InfoPlist.strings in Resources */,
+				88CF871A17C59DBF003D7C86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CF872217C59DBF003D7C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CF873017C59DBF003D7C86 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88CF86FF17C59DBF003D7C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CF871D17C59DBF003D7C86 /* ViewController.m in Sources */,
+				88CF871717C59DBF003D7C86 /* AppDelegate.m in Sources */,
+				88CF871317C59DBF003D7C86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CF872017C59DBF003D7C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CF873217C59DBF003D7C86 /* Recipe_9_1__Taking_PicturesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88CF872A17C59DBF003D7C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88CF870217C59DBF003D7C86 /* Recipe 9-4 Taking Pictures */;
+			targetProxy = 88CF872917C59DBF003D7C86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88CF870F17C59DBF003D7C86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88CF871017C59DBF003D7C86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88CF871817C59DBF003D7C86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88CF871917C59DBF003D7C86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88CF872E17C59DBF003D7C86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88CF872F17C59DBF003D7C86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88CF873317C59DBF003D7C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88CF873417C59DBF003D7C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88CF873617C59DBF003D7C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9-1: Taking Pictures/Recipe 9-1: Taking Pictures-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9-1: Taking Pictures/Recipe 9-1: Taking Pictures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88CF873717C59DBF003D7C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9-1: Taking Pictures/Recipe 9-1: Taking Pictures-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9-1: Taking Pictures/Recipe 9-1: Taking Pictures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88CF873917C59DBF003D7C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 9-1: Taking Pictures.app/Recipe 9-1: Taking Pictures";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9-1: Taking Pictures/Recipe 9-1: Taking Pictures-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 9-1: Taking PicturesTests/Recipe 9-1: Taking PicturesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88CF873A17C59DBF003D7C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 9-1: Taking Pictures.app/Recipe 9-1: Taking Pictures";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 9-1: Taking Pictures/Recipe 9-1: Taking Pictures-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 9-1: Taking PicturesTests/Recipe 9-1: Taking PicturesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88CF86FE17C59DBF003D7C86 /* Build configuration list for PBXProject "Recipe 9-4 Using Custom Camera Overlays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CF873317C59DBF003D7C86 /* Debug */,
+				88CF873417C59DBF003D7C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88CF873517C59DBF003D7C86 /* Build configuration list for PBXNativeTarget "Recipe 9-4 Taking Pictures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CF873617C59DBF003D7C86 /* Debug */,
+				88CF873717C59DBF003D7C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88CF873817C59DBF003D7C86 /* Build configuration list for PBXNativeTarget "Recipe 9-1: Taking PicturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CF873917C59DBF003D7C86 /* Debug */,
+				88CF873A17C59DBF003D7C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88CF86FB17C59DBF003D7C86 /* Project object */;
+}

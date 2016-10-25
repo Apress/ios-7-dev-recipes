@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8848E06B17D6D338007110E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8848E06A17D6D338007110E0 /* Foundation.framework */; };
+		8848E06D17D6D338007110E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8848E06C17D6D338007110E0 /* CoreGraphics.framework */; };
+		8848E06F17D6D338007110E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8848E06E17D6D338007110E0 /* UIKit.framework */; };
+		8848E07517D6D338007110E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8848E07317D6D338007110E0 /* InfoPlist.strings */; };
+		8848E07717D6D338007110E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848E07617D6D338007110E0 /* main.m */; };
+		8848E07B17D6D338007110E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848E07A17D6D338007110E0 /* AppDelegate.m */; };
+		8848E07E17D6D338007110E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8848E07C17D6D338007110E0 /* Main.storyboard */; };
+		8848E08117D6D338007110E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848E08017D6D338007110E0 /* ViewController.m */; };
+		8848E08317D6D338007110E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8848E08217D6D338007110E0 /* Images.xcassets */; };
+		8848E08A17D6D338007110E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8848E08917D6D338007110E0 /* XCTest.framework */; };
+		8848E08B17D6D338007110E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8848E06A17D6D338007110E0 /* Foundation.framework */; };
+		8848E08C17D6D338007110E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8848E06E17D6D338007110E0 /* UIKit.framework */; };
+		8848E09417D6D338007110E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8848E09217D6D338007110E0 /* InfoPlist.strings */; };
+		8848E09617D6D338007110E0 /* Recipe_15_1_Persisting_Data_with_NSUserDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848E09517D6D338007110E0 /* Recipe_15_1_Persisting_Data_with_NSUserDefaultsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8848E08D17D6D338007110E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8848E05F17D6D338007110E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8848E06617D6D338007110E0;
+			remoteInfo = "Recipe 15-1 Persisting Data with NSUserDefaults";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8848E06717D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 15-1 Persisting Data with NSUserDefaults.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8848E06A17D6D338007110E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8848E06C17D6D338007110E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8848E06E17D6D338007110E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8848E07217D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 15-1 Persisting Data with NSUserDefaults-Info.plist"; sourceTree = "<group>"; };
+		8848E07417D6D338007110E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8848E07617D6D338007110E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8848E07817D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 15-1 Persisting Data with NSUserDefaults-Prefix.pch"; sourceTree = "<group>"; };
+		8848E07917D6D338007110E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8848E07A17D6D338007110E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8848E07D17D6D338007110E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8848E07F17D6D338007110E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8848E08017D6D338007110E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8848E08217D6D338007110E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8848E08817D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 15-1 Persisting Data with NSUserDefaultsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8848E08917D6D338007110E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8848E09117D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaultsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 15-1 Persisting Data with NSUserDefaultsTests-Info.plist"; sourceTree = "<group>"; };
+		8848E09317D6D338007110E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8848E09517D6D338007110E0 /* Recipe_15_1_Persisting_Data_with_NSUserDefaultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_15_1_Persisting_Data_with_NSUserDefaultsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8848E06417D6D338007110E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8848E06D17D6D338007110E0 /* CoreGraphics.framework in Frameworks */,
+				8848E06F17D6D338007110E0 /* UIKit.framework in Frameworks */,
+				8848E06B17D6D338007110E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8848E08517D6D338007110E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8848E08A17D6D338007110E0 /* XCTest.framework in Frameworks */,
+				8848E08C17D6D338007110E0 /* UIKit.framework in Frameworks */,
+				8848E08B17D6D338007110E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8848E05E17D6D338007110E0 = {
+			isa = PBXGroup;
+			children = (
+				8848E07017D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults */,
+				8848E08F17D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaultsTests */,
+				8848E06917D6D338007110E0 /* Frameworks */,
+				8848E06817D6D338007110E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8848E06817D6D338007110E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8848E06717D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults.app */,
+				8848E08817D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaultsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8848E06917D6D338007110E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8848E06A17D6D338007110E0 /* Foundation.framework */,
+				8848E06C17D6D338007110E0 /* CoreGraphics.framework */,
+				8848E06E17D6D338007110E0 /* UIKit.framework */,
+				8848E08917D6D338007110E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8848E07017D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				8848E07917D6D338007110E0 /* AppDelegate.h */,
+				8848E07A17D6D338007110E0 /* AppDelegate.m */,
+				8848E07C17D6D338007110E0 /* Main.storyboard */,
+				8848E07F17D6D338007110E0 /* ViewController.h */,
+				8848E08017D6D338007110E0 /* ViewController.m */,
+				8848E08217D6D338007110E0 /* Images.xcassets */,
+				8848E07117D6D338007110E0 /* Supporting Files */,
+			);
+			path = "Recipe 15-1 Persisting Data with NSUserDefaults";
+			sourceTree = "<group>";
+		};
+		8848E07117D6D338007110E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8848E07217D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults-Info.plist */,
+				8848E07317D6D338007110E0 /* InfoPlist.strings */,
+				8848E07617D6D338007110E0 /* main.m */,
+				8848E07817D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8848E08F17D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaultsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8848E09517D6D338007110E0 /* Recipe_15_1_Persisting_Data_with_NSUserDefaultsTests.m */,
+				8848E09017D6D338007110E0 /* Supporting Files */,
+			);
+			path = "Recipe 15-1 Persisting Data with NSUserDefaultsTests";
+			sourceTree = "<group>";
+		};
+		8848E09017D6D338007110E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8848E09117D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaultsTests-Info.plist */,
+				8848E09217D6D338007110E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8848E06617D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8848E09917D6D338007110E0 /* Build configuration list for PBXNativeTarget "Recipe 15-1 Persisting Data with NSUserDefaults" */;
+			buildPhases = (
+				8848E06317D6D338007110E0 /* Sources */,
+				8848E06417D6D338007110E0 /* Frameworks */,
+				8848E06517D6D338007110E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 15-1 Persisting Data with NSUserDefaults";
+			productName = "Recipe 15-1 Persisting Data with NSUserDefaults";
+			productReference = 8848E06717D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8848E08717D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaultsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8848E09C17D6D338007110E0 /* Build configuration list for PBXNativeTarget "Recipe 15-1 Persisting Data with NSUserDefaultsTests" */;
+			buildPhases = (
+				8848E08417D6D338007110E0 /* Sources */,
+				8848E08517D6D338007110E0 /* Frameworks */,
+				8848E08617D6D338007110E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8848E08E17D6D338007110E0 /* PBXTargetDependency */,
+			);
+			name = "Recipe 15-1 Persisting Data with NSUserDefaultsTests";
+			productName = "Recipe 15-1 Persisting Data with NSUserDefaultsTests";
+			productReference = 8848E08817D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaultsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8848E05F17D6D338007110E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					8848E08717D6D338007110E0 = {
+						TestTargetID = 8848E06617D6D338007110E0;
+					};
+				};
+			};
+			buildConfigurationList = 8848E06217D6D338007110E0 /* Build configuration list for PBXProject "Recipe 15-1 Persisting Data with NSUserDefaults" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8848E05E17D6D338007110E0;
+			productRefGroup = 8848E06817D6D338007110E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8848E06617D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults */,
+				8848E08717D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaultsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8848E06517D6D338007110E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8848E08317D6D338007110E0 /* Images.xcassets in Resources */,
+				8848E07517D6D338007110E0 /* InfoPlist.strings in Resources */,
+				8848E07E17D6D338007110E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8848E08617D6D338007110E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8848E09417D6D338007110E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8848E06317D6D338007110E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8848E08117D6D338007110E0 /* ViewController.m in Sources */,
+				8848E07B17D6D338007110E0 /* AppDelegate.m in Sources */,
+				8848E07717D6D338007110E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8848E08417D6D338007110E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8848E09617D6D338007110E0 /* Recipe_15_1_Persisting_Data_with_NSUserDefaultsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8848E08E17D6D338007110E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8848E06617D6D338007110E0 /* Recipe 15-1 Persisting Data with NSUserDefaults */;
+			targetProxy = 8848E08D17D6D338007110E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8848E07317D6D338007110E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8848E07417D6D338007110E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8848E07C17D6D338007110E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8848E07D17D6D338007110E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8848E09217D6D338007110E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8848E09317D6D338007110E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8848E09717D6D338007110E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8848E09817D6D338007110E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8848E09A17D6D338007110E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 15-1 Persisting Data with NSUserDefaults/Recipe 15-1 Persisting Data with NSUserDefaults-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 15-1 Persisting Data with NSUserDefaults/Recipe 15-1 Persisting Data with NSUserDefaults-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8848E09B17D6D338007110E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 15-1 Persisting Data with NSUserDefaults/Recipe 15-1 Persisting Data with NSUserDefaults-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 15-1 Persisting Data with NSUserDefaults/Recipe 15-1 Persisting Data with NSUserDefaults-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8848E09D17D6D338007110E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 15-1 Persisting Data with NSUserDefaults.app/Recipe 15-1 Persisting Data with NSUserDefaults";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 15-1 Persisting Data with NSUserDefaults/Recipe 15-1 Persisting Data with NSUserDefaults-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 15-1 Persisting Data with NSUserDefaultsTests/Recipe 15-1 Persisting Data with NSUserDefaultsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8848E09E17D6D338007110E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 15-1 Persisting Data with NSUserDefaults.app/Recipe 15-1 Persisting Data with NSUserDefaults";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 15-1 Persisting Data with NSUserDefaults/Recipe 15-1 Persisting Data with NSUserDefaults-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 15-1 Persisting Data with NSUserDefaultsTests/Recipe 15-1 Persisting Data with NSUserDefaultsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8848E06217D6D338007110E0 /* Build configuration list for PBXProject "Recipe 15-1 Persisting Data with NSUserDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8848E09717D6D338007110E0 /* Debug */,
+				8848E09817D6D338007110E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8848E09917D6D338007110E0 /* Build configuration list for PBXNativeTarget "Recipe 15-1 Persisting Data with NSUserDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8848E09A17D6D338007110E0 /* Debug */,
+				8848E09B17D6D338007110E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8848E09C17D6D338007110E0 /* Build configuration list for PBXNativeTarget "Recipe 15-1 Persisting Data with NSUserDefaultsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8848E09D17D6D338007110E0 /* Debug */,
+				8848E09E17D6D338007110E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8848E05F17D6D338007110E0 /* Project object */;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Recipe 10-1 Playing Audio/ViewController.h"
+            timestampString = "399263267.918062"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "player"
+            landmarkType = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController player]"
+                  moduleName = "Recipe 10-1 Playing Audio"
+                  urlString = "file://localhost/Users/josephhoffman/Google%20Drive/iOS%207%20Book/iOS%207%20Book%20Chapter%20folders/CH10%20-%20Multimedia%20Recipes/projects/Recipe%2010-1%20Playing%20Audio/Recipe%2010-1%20Playing%20Audio/ViewController.h"
+                  timestampString = "399264345.78732"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController setPlayer:]"
+                  moduleName = "Recipe 10-1 Playing Audio"
+                  urlString = "file://localhost/Users/josephhoffman/Google%20Drive/iOS%207%20Book/iOS%207%20Book%20Chapter%20folders/CH10%20-%20Multimedia%20Recipes/projects/Recipe%2010-1%20Playing%20Audio/Recipe%2010-1%20Playing%20Audio/ViewController.h"
+                  timestampString = "399264345.787828"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

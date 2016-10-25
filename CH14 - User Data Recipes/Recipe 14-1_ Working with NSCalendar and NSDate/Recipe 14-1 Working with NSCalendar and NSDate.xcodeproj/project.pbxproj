@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8857E87A17D10E4100B5668C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857E87917D10E4100B5668C /* Foundation.framework */; };
+		8857E87C17D10E4100B5668C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857E87B17D10E4100B5668C /* CoreGraphics.framework */; };
+		8857E87E17D10E4100B5668C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857E87D17D10E4100B5668C /* UIKit.framework */; };
+		8857E88417D10E4100B5668C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8857E88217D10E4100B5668C /* InfoPlist.strings */; };
+		8857E88617D10E4100B5668C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857E88517D10E4100B5668C /* main.m */; };
+		8857E88A17D10E4100B5668C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857E88917D10E4100B5668C /* AppDelegate.m */; };
+		8857E88D17D10E4100B5668C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8857E88B17D10E4100B5668C /* Main.storyboard */; };
+		8857E89017D10E4100B5668C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857E88F17D10E4100B5668C /* ViewController.m */; };
+		8857E89217D10E4100B5668C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8857E89117D10E4100B5668C /* Images.xcassets */; };
+		8857E89917D10E4200B5668C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857E89817D10E4200B5668C /* XCTest.framework */; };
+		8857E89A17D10E4200B5668C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857E87917D10E4100B5668C /* Foundation.framework */; };
+		8857E89B17D10E4200B5668C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857E87D17D10E4100B5668C /* UIKit.framework */; };
+		8857E8A317D10E4200B5668C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8857E8A117D10E4200B5668C /* InfoPlist.strings */; };
+		8857E8A517D10E4200B5668C /* Recipe_14_1__Working_with_NSCalendar_and_NSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857E8A417D10E4200B5668C /* Recipe_14_1__Working_with_NSCalendar_and_NSDateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8857E89C17D10E4200B5668C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8857E86E17D10E4100B5668C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8857E87517D10E4100B5668C;
+			remoteInfo = "Recipe 14-1: Working with NSCalendar and NSDate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8857E87617D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 14-1 Working with NSCalendar and NSDate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8857E87917D10E4100B5668C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8857E87B17D10E4100B5668C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8857E87D17D10E4100B5668C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8857E88117D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 14-1 Working with NSCalendar and NSDate-Info.plist"; sourceTree = "<group>"; };
+		8857E88317D10E4100B5668C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8857E88517D10E4100B5668C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8857E88717D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 14-1 Working with NSCalendar and NSDate-Prefix.pch"; sourceTree = "<group>"; };
+		8857E88817D10E4100B5668C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8857E88917D10E4100B5668C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8857E88C17D10E4100B5668C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8857E88E17D10E4100B5668C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8857E88F17D10E4100B5668C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8857E89117D10E4100B5668C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8857E89717D10E4200B5668C /* Recipe 14-1 Working with NSCalendar and NSDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 14-1 Working with NSCalendar and NSDateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8857E89817D10E4200B5668C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8857E8A017D10E4200B5668C /* Recipe 14-1 Working with NSCalendar and NSDateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 14-1 Working with NSCalendar and NSDateTests-Info.plist"; sourceTree = "<group>"; };
+		8857E8A217D10E4200B5668C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8857E8A417D10E4200B5668C /* Recipe_14_1__Working_with_NSCalendar_and_NSDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_14_1__Working_with_NSCalendar_and_NSDateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8857E87317D10E4100B5668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857E87C17D10E4100B5668C /* CoreGraphics.framework in Frameworks */,
+				8857E87E17D10E4100B5668C /* UIKit.framework in Frameworks */,
+				8857E87A17D10E4100B5668C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8857E89417D10E4200B5668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857E89917D10E4200B5668C /* XCTest.framework in Frameworks */,
+				8857E89B17D10E4200B5668C /* UIKit.framework in Frameworks */,
+				8857E89A17D10E4200B5668C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8857E86D17D10E4000B5668C = {
+			isa = PBXGroup;
+			children = (
+				8857E87F17D10E4100B5668C /* Recipe 14-1: Working with NSCalendar and NSDate */,
+				8857E89E17D10E4200B5668C /* Recipe 14-1: Working with NSCalendar and NSDateTests */,
+				8857E87817D10E4100B5668C /* Frameworks */,
+				8857E87717D10E4100B5668C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8857E87717D10E4100B5668C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8857E87617D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate.app */,
+				8857E89717D10E4200B5668C /* Recipe 14-1 Working with NSCalendar and NSDateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8857E87817D10E4100B5668C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8857E87917D10E4100B5668C /* Foundation.framework */,
+				8857E87B17D10E4100B5668C /* CoreGraphics.framework */,
+				8857E87D17D10E4100B5668C /* UIKit.framework */,
+				8857E89817D10E4200B5668C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8857E87F17D10E4100B5668C /* Recipe 14-1: Working with NSCalendar and NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				8857E88817D10E4100B5668C /* AppDelegate.h */,
+				8857E88917D10E4100B5668C /* AppDelegate.m */,
+				8857E88B17D10E4100B5668C /* Main.storyboard */,
+				8857E88E17D10E4100B5668C /* ViewController.h */,
+				8857E88F17D10E4100B5668C /* ViewController.m */,
+				8857E89117D10E4100B5668C /* Images.xcassets */,
+				8857E88017D10E4100B5668C /* Supporting Files */,
+			);
+			path = "Recipe 14-1: Working with NSCalendar and NSDate";
+			sourceTree = "<group>";
+		};
+		8857E88017D10E4100B5668C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8857E88117D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate-Info.plist */,
+				8857E88217D10E4100B5668C /* InfoPlist.strings */,
+				8857E88517D10E4100B5668C /* main.m */,
+				8857E88717D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8857E89E17D10E4200B5668C /* Recipe 14-1: Working with NSCalendar and NSDateTests */ = {
+			isa = PBXGroup;
+			children = (
+				8857E8A417D10E4200B5668C /* Recipe_14_1__Working_with_NSCalendar_and_NSDateTests.m */,
+				8857E89F17D10E4200B5668C /* Supporting Files */,
+			);
+			path = "Recipe 14-1: Working with NSCalendar and NSDateTests";
+			sourceTree = "<group>";
+		};
+		8857E89F17D10E4200B5668C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8857E8A017D10E4200B5668C /* Recipe 14-1 Working with NSCalendar and NSDateTests-Info.plist */,
+				8857E8A117D10E4200B5668C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8857E87517D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8857E8A817D10E4200B5668C /* Build configuration list for PBXNativeTarget "Recipe 14-1 Working with NSCalendar and NSDate" */;
+			buildPhases = (
+				8857E87217D10E4100B5668C /* Sources */,
+				8857E87317D10E4100B5668C /* Frameworks */,
+				8857E87417D10E4100B5668C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 14-1 Working with NSCalendar and NSDate";
+			productName = "Recipe 14-1: Working with NSCalendar and NSDate";
+			productReference = 8857E87617D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8857E89617D10E4200B5668C /* Recipe 14-1 Working with NSCalendar and NSDateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8857E8AB17D10E4200B5668C /* Build configuration list for PBXNativeTarget "Recipe 14-1 Working with NSCalendar and NSDateTests" */;
+			buildPhases = (
+				8857E89317D10E4200B5668C /* Sources */,
+				8857E89417D10E4200B5668C /* Frameworks */,
+				8857E89517D10E4200B5668C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8857E89D17D10E4200B5668C /* PBXTargetDependency */,
+			);
+			name = "Recipe 14-1 Working with NSCalendar and NSDateTests";
+			productName = "Recipe 14-1: Working with NSCalendar and NSDateTests";
+			productReference = 8857E89717D10E4200B5668C /* Recipe 14-1 Working with NSCalendar and NSDateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8857E86E17D10E4100B5668C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					8857E89617D10E4200B5668C = {
+						TestTargetID = 8857E87517D10E4100B5668C;
+					};
+				};
+			};
+			buildConfigurationList = 8857E87117D10E4100B5668C /* Build configuration list for PBXProject "Recipe 14-1 Working with NSCalendar and NSDate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8857E86D17D10E4000B5668C;
+			productRefGroup = 8857E87717D10E4100B5668C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8857E87517D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate */,
+				8857E89617D10E4200B5668C /* Recipe 14-1 Working with NSCalendar and NSDateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8857E87417D10E4100B5668C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857E89217D10E4100B5668C /* Images.xcassets in Resources */,
+				8857E88417D10E4100B5668C /* InfoPlist.strings in Resources */,
+				8857E88D17D10E4100B5668C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8857E89517D10E4200B5668C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857E8A317D10E4200B5668C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8857E87217D10E4100B5668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857E89017D10E4100B5668C /* ViewController.m in Sources */,
+				8857E88A17D10E4100B5668C /* AppDelegate.m in Sources */,
+				8857E88617D10E4100B5668C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8857E89317D10E4200B5668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857E8A517D10E4200B5668C /* Recipe_14_1__Working_with_NSCalendar_and_NSDateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8857E89D17D10E4200B5668C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8857E87517D10E4100B5668C /* Recipe 14-1 Working with NSCalendar and NSDate */;
+			targetProxy = 8857E89C17D10E4200B5668C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8857E88217D10E4100B5668C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8857E88317D10E4100B5668C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8857E88B17D10E4100B5668C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8857E88C17D10E4100B5668C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8857E8A117D10E4200B5668C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8857E8A217D10E4200B5668C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8857E8A617D10E4200B5668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8857E8A717D10E4200B5668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8857E8A917D10E4200B5668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 14-1: Working with NSCalendar and NSDate/Recipe 14-1 Working with NSCalendar and NSDate-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 14-1: Working with NSCalendar and NSDate/Recipe 14-1 Working with NSCalendar and NSDate-Info.plist";
+				PRODUCT_NAME = "Recipe 14-1 Working with NSCalendar and NSDate";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8857E8AA17D10E4200B5668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 14-1: Working with NSCalendar and NSDate/Recipe 14-1 Working with NSCalendar and NSDate-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 14-1: Working with NSCalendar and NSDate/Recipe 14-1 Working with NSCalendar and NSDate-Info.plist";
+				PRODUCT_NAME = "Recipe 14-1 Working with NSCalendar and NSDate";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8857E8AC17D10E4200B5668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 14-1: Working with NSCalendar and NSDate.app/Recipe 14-1: Working with NSCalendar and NSDate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 14-1: Working with NSCalendar and NSDate/Recipe 14-1: Working with NSCalendar and NSDate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 14-1: Working with NSCalendar and NSDateTests/Recipe 14-1 Working with NSCalendar and NSDateTests-Info.plist";
+				PRODUCT_NAME = "Recipe 14-1 Working with NSCalendar and NSDateTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8857E8AD17D10E4200B5668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 14-1: Working with NSCalendar and NSDate.app/Recipe 14-1: Working with NSCalendar and NSDate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 14-1: Working with NSCalendar and NSDate/Recipe 14-1: Working with NSCalendar and NSDate-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 14-1: Working with NSCalendar and NSDateTests/Recipe 14-1 Working with NSCalendar and NSDateTests-Info.plist";
+				PRODUCT_NAME = "Recipe 14-1 Working with NSCalendar and NSDateTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8857E87117D10E4100B5668C /* Build configuration list for PBXProject "Recipe 14-1 Working with NSCalendar and NSDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8857E8A617D10E4200B5668C /* Debug */,
+				8857E8A717D10E4200B5668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8857E8A817D10E4200B5668C /* Build configuration list for PBXNativeTarget "Recipe 14-1 Working with NSCalendar and NSDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8857E8A917D10E4200B5668C /* Debug */,
+				8857E8AA17D10E4200B5668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8857E8AB17D10E4200B5668C /* Build configuration list for PBXNativeTarget "Recipe 14-1 Working with NSCalendar and NSDateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8857E8AC17D10E4200B5668C /* Debug */,
+				8857E8AD17D10E4200B5668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8857E86E17D10E4100B5668C /* Project object */;
+}

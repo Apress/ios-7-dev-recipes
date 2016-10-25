@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		886B9DD517B1CE8800204701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B9DD417B1CE8800204701 /* Foundation.framework */; };
+		886B9DD717B1CE8800204701 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B9DD617B1CE8800204701 /* CoreGraphics.framework */; };
+		886B9DD917B1CE8800204701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B9DD817B1CE8800204701 /* UIKit.framework */; };
+		886B9DDF17B1CE8800204701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 886B9DDD17B1CE8800204701 /* InfoPlist.strings */; };
+		886B9DE117B1CE8800204701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 886B9DE017B1CE8800204701 /* main.m */; };
+		886B9DE517B1CE8800204701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 886B9DE417B1CE8800204701 /* AppDelegate.m */; };
+		886B9DE817B1CE8800204701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886B9DE617B1CE8800204701 /* Main.storyboard */; };
+		886B9DEB17B1CE8800204701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886B9DEA17B1CE8800204701 /* ViewController.m */; };
+		886B9DED17B1CE8800204701 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886B9DEC17B1CE8800204701 /* Images.xcassets */; };
+		886B9DF417B1CE8800204701 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B9DF317B1CE8800204701 /* XCTest.framework */; };
+		886B9DF517B1CE8800204701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B9DD417B1CE8800204701 /* Foundation.framework */; };
+		886B9DF617B1CE8800204701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B9DD817B1CE8800204701 /* UIKit.framework */; };
+		886B9DFE17B1CE8800204701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 886B9DFC17B1CE8800204701 /* InfoPlist.strings */; };
+		886B9E0017B1CE8800204701 /* Recipe_5_5__Region_MonitoringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 886B9DFF17B1CE8800204701 /* Recipe_5_5__Region_MonitoringTests.m */; };
+		886B9E0A17B1CECE00204701 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B9E0917B1CECD00204701 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		886B9DF717B1CE8800204701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 886B9DC917B1CE8700204701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 886B9DD017B1CE8800204701;
+			remoteInfo = "Recipe 5-5: Region Monitoring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		886B9DD117B1CE8800204701 /* Recipe 5-5 Region Monitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 5-5 Region Monitoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886B9DD417B1CE8800204701 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		886B9DD617B1CE8800204701 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		886B9DD817B1CE8800204701 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		886B9DDC17B1CE8800204701 /* Recipe 5-5: Region Monitoring-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 5-5: Region Monitoring-Info.plist"; sourceTree = "<group>"; };
+		886B9DDE17B1CE8800204701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		886B9DE017B1CE8800204701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		886B9DE217B1CE8800204701 /* Recipe 5-5 Region Monitoring-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 5-5 Region Monitoring-Prefix.pch"; sourceTree = "<group>"; };
+		886B9DE317B1CE8800204701 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		886B9DE417B1CE8800204701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		886B9DE717B1CE8800204701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		886B9DE917B1CE8800204701 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		886B9DEA17B1CE8800204701 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		886B9DEC17B1CE8800204701 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		886B9DF217B1CE8800204701 /* Recipe 5-5 Region MonitoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 5-5 Region MonitoringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886B9DF317B1CE8800204701 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		886B9DFB17B1CE8800204701 /* Recipe 5-5 Region MonitoringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 5-5 Region MonitoringTests-Info.plist"; sourceTree = "<group>"; };
+		886B9DFD17B1CE8800204701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		886B9DFF17B1CE8800204701 /* Recipe_5_5__Region_MonitoringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_5_5__Region_MonitoringTests.m; sourceTree = "<group>"; };
+		886B9E0917B1CECD00204701 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		886B9DCE17B1CE8800204701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886B9E0A17B1CECE00204701 /* CoreLocation.framework in Frameworks */,
+				886B9DD717B1CE8800204701 /* CoreGraphics.framework in Frameworks */,
+				886B9DD917B1CE8800204701 /* UIKit.framework in Frameworks */,
+				886B9DD517B1CE8800204701 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886B9DEF17B1CE8800204701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886B9DF417B1CE8800204701 /* XCTest.framework in Frameworks */,
+				886B9DF617B1CE8800204701 /* UIKit.framework in Frameworks */,
+				886B9DF517B1CE8800204701 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		886B9DC817B1CE8700204701 = {
+			isa = PBXGroup;
+			children = (
+				886B9DDA17B1CE8800204701 /* Recipe 5-5 Region Monitoring */,
+				886B9DF917B1CE8800204701 /* Recipe 5-5 Region MonitoringTests */,
+				886B9DD317B1CE8800204701 /* Frameworks */,
+				886B9DD217B1CE8800204701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		886B9DD217B1CE8800204701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				886B9DD117B1CE8800204701 /* Recipe 5-5 Region Monitoring.app */,
+				886B9DF217B1CE8800204701 /* Recipe 5-5 Region MonitoringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		886B9DD317B1CE8800204701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				886B9E0917B1CECD00204701 /* CoreLocation.framework */,
+				886B9DD417B1CE8800204701 /* Foundation.framework */,
+				886B9DD617B1CE8800204701 /* CoreGraphics.framework */,
+				886B9DD817B1CE8800204701 /* UIKit.framework */,
+				886B9DF317B1CE8800204701 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		886B9DDA17B1CE8800204701 /* Recipe 5-5 Region Monitoring */ = {
+			isa = PBXGroup;
+			children = (
+				886B9DE317B1CE8800204701 /* AppDelegate.h */,
+				886B9DE417B1CE8800204701 /* AppDelegate.m */,
+				886B9DE617B1CE8800204701 /* Main.storyboard */,
+				886B9DE917B1CE8800204701 /* ViewController.h */,
+				886B9DEA17B1CE8800204701 /* ViewController.m */,
+				886B9DEC17B1CE8800204701 /* Images.xcassets */,
+				886B9DDB17B1CE8800204701 /* Supporting Files */,
+			);
+			name = "Recipe 5-5 Region Monitoring";
+			path = "Recipe 5-5: Region Monitoring";
+			sourceTree = "<group>";
+		};
+		886B9DDB17B1CE8800204701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				886B9DDC17B1CE8800204701 /* Recipe 5-5: Region Monitoring-Info.plist */,
+				886B9DDD17B1CE8800204701 /* InfoPlist.strings */,
+				886B9DE017B1CE8800204701 /* main.m */,
+				886B9DE217B1CE8800204701 /* Recipe 5-5 Region Monitoring-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		886B9DF917B1CE8800204701 /* Recipe 5-5 Region MonitoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				886B9DFF17B1CE8800204701 /* Recipe_5_5__Region_MonitoringTests.m */,
+				886B9DFA17B1CE8800204701 /* Supporting Files */,
+			);
+			name = "Recipe 5-5 Region MonitoringTests";
+			path = "Recipe 5-5: Region MonitoringTests";
+			sourceTree = "<group>";
+		};
+		886B9DFA17B1CE8800204701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				886B9DFB17B1CE8800204701 /* Recipe 5-5 Region MonitoringTests-Info.plist */,
+				886B9DFC17B1CE8800204701 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		886B9DD017B1CE8800204701 /* Recipe 5-5 Region Monitoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886B9E0317B1CE8800204701 /* Build configuration list for PBXNativeTarget "Recipe 5-5 Region Monitoring" */;
+			buildPhases = (
+				886B9DCD17B1CE8800204701 /* Sources */,
+				886B9DCE17B1CE8800204701 /* Frameworks */,
+				886B9DCF17B1CE8800204701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 5-5 Region Monitoring";
+			productName = "Recipe 5-5: Region Monitoring";
+			productReference = 886B9DD117B1CE8800204701 /* Recipe 5-5 Region Monitoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		886B9DF117B1CE8800204701 /* Recipe 5-5 Region MonitoringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886B9E0617B1CE8800204701 /* Build configuration list for PBXNativeTarget "Recipe 5-5 Region MonitoringTests" */;
+			buildPhases = (
+				886B9DEE17B1CE8800204701 /* Sources */,
+				886B9DEF17B1CE8800204701 /* Frameworks */,
+				886B9DF017B1CE8800204701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886B9DF817B1CE8800204701 /* PBXTargetDependency */,
+			);
+			name = "Recipe 5-5 Region MonitoringTests";
+			productName = "Recipe 5-5: Region MonitoringTests";
+			productReference = 886B9DF217B1CE8800204701 /* Recipe 5-5 Region MonitoringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		886B9DC917B1CE8700204701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					886B9DF117B1CE8800204701 = {
+						TestTargetID = 886B9DD017B1CE8800204701;
+					};
+				};
+			};
+			buildConfigurationList = 886B9DCC17B1CE8700204701 /* Build configuration list for PBXProject "Recipe 5-5 Region Monitoring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 886B9DC817B1CE8700204701;
+			productRefGroup = 886B9DD217B1CE8800204701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				886B9DD017B1CE8800204701 /* Recipe 5-5 Region Monitoring */,
+				886B9DF117B1CE8800204701 /* Recipe 5-5 Region MonitoringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		886B9DCF17B1CE8800204701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886B9DED17B1CE8800204701 /* Images.xcassets in Resources */,
+				886B9DDF17B1CE8800204701 /* InfoPlist.strings in Resources */,
+				886B9DE817B1CE8800204701 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886B9DF017B1CE8800204701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886B9DFE17B1CE8800204701 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		886B9DCD17B1CE8800204701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886B9DEB17B1CE8800204701 /* ViewController.m in Sources */,
+				886B9DE517B1CE8800204701 /* AppDelegate.m in Sources */,
+				886B9DE117B1CE8800204701 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886B9DEE17B1CE8800204701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886B9E0017B1CE8800204701 /* Recipe_5_5__Region_MonitoringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		886B9DF817B1CE8800204701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 886B9DD017B1CE8800204701 /* Recipe 5-5 Region Monitoring */;
+			targetProxy = 886B9DF717B1CE8800204701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		886B9DDD17B1CE8800204701 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886B9DDE17B1CE8800204701 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		886B9DE617B1CE8800204701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886B9DE717B1CE8800204701 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		886B9DFC17B1CE8800204701 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886B9DFD17B1CE8800204701 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		886B9E0117B1CE8800204701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		886B9E0217B1CE8800204701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		886B9E0417B1CE8800204701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 5-5: Region Monitoring/Recipe 5-5 Region Monitoring-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 5-5: Region Monitoring/Recipe 5-5: Region Monitoring-Info.plist";
+				PRODUCT_NAME = "Recipe 5-5 Region Monitoring";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		886B9E0517B1CE8800204701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 5-5: Region Monitoring/Recipe 5-5 Region Monitoring-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 5-5: Region Monitoring/Recipe 5-5: Region Monitoring-Info.plist";
+				PRODUCT_NAME = "Recipe 5-5 Region Monitoring";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		886B9E0717B1CE8800204701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 5-5: Region Monitoring.app/Recipe 5-5: Region Monitoring";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 5-5: Region Monitoring/Recipe 5-5: Region Monitoring-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 5-5: Region MonitoringTests/Recipe 5-5 Region MonitoringTests-Info.plist";
+				PRODUCT_NAME = "Recipe 5-5 Region MonitoringTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		886B9E0817B1CE8800204701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 5-5: Region Monitoring.app/Recipe 5-5: Region Monitoring";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 5-5: Region Monitoring/Recipe 5-5: Region Monitoring-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 5-5: Region MonitoringTests/Recipe 5-5 Region MonitoringTests-Info.plist";
+				PRODUCT_NAME = "Recipe 5-5 Region MonitoringTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		886B9DCC17B1CE8700204701 /* Build configuration list for PBXProject "Recipe 5-5 Region Monitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886B9E0117B1CE8800204701 /* Debug */,
+				886B9E0217B1CE8800204701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886B9E0317B1CE8800204701 /* Build configuration list for PBXNativeTarget "Recipe 5-5 Region Monitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886B9E0417B1CE8800204701 /* Debug */,
+				886B9E0517B1CE8800204701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886B9E0617B1CE8800204701 /* Build configuration list for PBXNativeTarget "Recipe 5-5 Region MonitoringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886B9E0717B1CE8800204701 /* Debug */,
+				886B9E0817B1CE8800204701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 886B9DC917B1CE8700204701 /* Project object */;
+}

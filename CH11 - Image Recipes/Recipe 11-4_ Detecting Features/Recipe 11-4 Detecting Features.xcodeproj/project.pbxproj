@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8849A7F518050B4300CA0A76 /* Dashboard_Widgets.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8849A7F418050B4300CA0A76 /* Dashboard_Widgets.zip */; };
+		8849A7F718050B7400CA0A76 /* joentater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8849A7F618050B7400CA0A76 /* joentater.jpg */; };
+		88BB664B17E2C62E00F11FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BB664A17E2C62E00F11FEA /* Foundation.framework */; };
+		88BB664D17E2C62E00F11FEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BB664C17E2C62E00F11FEA /* CoreGraphics.framework */; };
+		88BB664F17E2C62E00F11FEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BB664E17E2C62E00F11FEA /* UIKit.framework */; };
+		88BB665517E2C62E00F11FEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88BB665317E2C62E00F11FEA /* InfoPlist.strings */; };
+		88BB665717E2C62E00F11FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BB665617E2C62E00F11FEA /* main.m */; };
+		88BB665B17E2C62E00F11FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BB665A17E2C62E00F11FEA /* AppDelegate.m */; };
+		88BB665E17E2C62E00F11FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BB665C17E2C62E00F11FEA /* Main.storyboard */; };
+		88BB666117E2C62E00F11FEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BB666017E2C62E00F11FEA /* ViewController.m */; };
+		88BB666317E2C62E00F11FEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BB666217E2C62E00F11FEA /* Images.xcassets */; };
+		88BB666A17E2C62E00F11FEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BB666917E2C62E00F11FEA /* XCTest.framework */; };
+		88BB666B17E2C62E00F11FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BB664A17E2C62E00F11FEA /* Foundation.framework */; };
+		88BB666C17E2C62E00F11FEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BB664E17E2C62E00F11FEA /* UIKit.framework */; };
+		88BB667417E2C62E00F11FEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88BB667217E2C62E00F11FEA /* InfoPlist.strings */; };
+		88BB667617E2C62E00F11FEA /* Recipe_11_4__Detecting_FeaturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BB667517E2C62E00F11FEA /* Recipe_11_4__Detecting_FeaturesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88BB666D17E2C62E00F11FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88BB663F17E2C62E00F11FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BB664617E2C62E00F11FEA;
+			remoteInfo = "Recipe 11-4: Detecting Features";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8849A7F418050B4300CA0A76 /* Dashboard_Widgets.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Dashboard_Widgets.zip; sourceTree = "<group>"; };
+		8849A7F618050B7400CA0A76 /* joentater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joentater.jpg; sourceTree = "<group>"; };
+		88BB664717E2C62E00F11FEA /* Recipe 11-4 Detecting Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 11-4 Detecting Features.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BB664A17E2C62E00F11FEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88BB664C17E2C62E00F11FEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88BB664E17E2C62E00F11FEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88BB665217E2C62E00F11FEA /* Recipe 11-4 Detecting Features-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 11-4 Detecting Features-Info.plist"; sourceTree = "<group>"; };
+		88BB665417E2C62E00F11FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88BB665617E2C62E00F11FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88BB665817E2C62E00F11FEA /* Recipe 11-4 Detecting Features-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 11-4 Detecting Features-Prefix.pch"; sourceTree = "<group>"; };
+		88BB665917E2C62E00F11FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88BB665A17E2C62E00F11FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88BB665D17E2C62E00F11FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88BB665F17E2C62E00F11FEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88BB666017E2C62E00F11FEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88BB666217E2C62E00F11FEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88BB666817E2C62E00F11FEA /* Recipe 11-4 Detecting FeaturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 11-4 Detecting FeaturesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BB666917E2C62E00F11FEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88BB667117E2C62E00F11FEA /* Recipe 11-4 Detecting FeaturesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 11-4 Detecting FeaturesTests-Info.plist"; sourceTree = "<group>"; };
+		88BB667317E2C62E00F11FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88BB667517E2C62E00F11FEA /* Recipe_11_4__Detecting_FeaturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_11_4__Detecting_FeaturesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88BB664417E2C62E00F11FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BB664D17E2C62E00F11FEA /* CoreGraphics.framework in Frameworks */,
+				88BB664F17E2C62E00F11FEA /* UIKit.framework in Frameworks */,
+				88BB664B17E2C62E00F11FEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BB666517E2C62E00F11FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BB666A17E2C62E00F11FEA /* XCTest.framework in Frameworks */,
+				88BB666C17E2C62E00F11FEA /* UIKit.framework in Frameworks */,
+				88BB666B17E2C62E00F11FEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88BB663E17E2C62E00F11FEA = {
+			isa = PBXGroup;
+			children = (
+				88BB665017E2C62E00F11FEA /* Recipe 11-4: Detecting Features */,
+				88BB666F17E2C62E00F11FEA /* Recipe 11-4: Detecting FeaturesTests */,
+				88BB664917E2C62E00F11FEA /* Frameworks */,
+				88BB664817E2C62E00F11FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88BB664817E2C62E00F11FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88BB664717E2C62E00F11FEA /* Recipe 11-4 Detecting Features.app */,
+				88BB666817E2C62E00F11FEA /* Recipe 11-4 Detecting FeaturesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88BB664917E2C62E00F11FEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88BB664A17E2C62E00F11FEA /* Foundation.framework */,
+				88BB664C17E2C62E00F11FEA /* CoreGraphics.framework */,
+				88BB664E17E2C62E00F11FEA /* UIKit.framework */,
+				88BB666917E2C62E00F11FEA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88BB665017E2C62E00F11FEA /* Recipe 11-4: Detecting Features */ = {
+			isa = PBXGroup;
+			children = (
+				88BB665917E2C62E00F11FEA /* AppDelegate.h */,
+				88BB665A17E2C62E00F11FEA /* AppDelegate.m */,
+				88BB665C17E2C62E00F11FEA /* Main.storyboard */,
+				88BB665F17E2C62E00F11FEA /* ViewController.h */,
+				88BB666017E2C62E00F11FEA /* ViewController.m */,
+				88BB666217E2C62E00F11FEA /* Images.xcassets */,
+				88BB665117E2C62E00F11FEA /* Supporting Files */,
+			);
+			path = "Recipe 11-4: Detecting Features";
+			sourceTree = "<group>";
+		};
+		88BB665117E2C62E00F11FEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8849A7F618050B7400CA0A76 /* joentater.jpg */,
+				8849A7F418050B4300CA0A76 /* Dashboard_Widgets.zip */,
+				88BB665217E2C62E00F11FEA /* Recipe 11-4 Detecting Features-Info.plist */,
+				88BB665317E2C62E00F11FEA /* InfoPlist.strings */,
+				88BB665617E2C62E00F11FEA /* main.m */,
+				88BB665817E2C62E00F11FEA /* Recipe 11-4 Detecting Features-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88BB666F17E2C62E00F11FEA /* Recipe 11-4: Detecting FeaturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				88BB667517E2C62E00F11FEA /* Recipe_11_4__Detecting_FeaturesTests.m */,
+				88BB667017E2C62E00F11FEA /* Supporting Files */,
+			);
+			path = "Recipe 11-4: Detecting FeaturesTests";
+			sourceTree = "<group>";
+		};
+		88BB667017E2C62E00F11FEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88BB667117E2C62E00F11FEA /* Recipe 11-4 Detecting FeaturesTests-Info.plist */,
+				88BB667217E2C62E00F11FEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88BB664617E2C62E00F11FEA /* Recipe 11-4 Detecting Features */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88BB667917E2C62E00F11FEA /* Build configuration list for PBXNativeTarget "Recipe 11-4 Detecting Features" */;
+			buildPhases = (
+				88BB664317E2C62E00F11FEA /* Sources */,
+				88BB664417E2C62E00F11FEA /* Frameworks */,
+				88BB664517E2C62E00F11FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 11-4 Detecting Features";
+			productName = "Recipe 11-4: Detecting Features";
+			productReference = 88BB664717E2C62E00F11FEA /* Recipe 11-4 Detecting Features.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88BB666717E2C62E00F11FEA /* Recipe 11-4 Detecting FeaturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88BB667C17E2C62E00F11FEA /* Build configuration list for PBXNativeTarget "Recipe 11-4 Detecting FeaturesTests" */;
+			buildPhases = (
+				88BB666417E2C62E00F11FEA /* Sources */,
+				88BB666517E2C62E00F11FEA /* Frameworks */,
+				88BB666617E2C62E00F11FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88BB666E17E2C62E00F11FEA /* PBXTargetDependency */,
+			);
+			name = "Recipe 11-4 Detecting FeaturesTests";
+			productName = "Recipe 11-4: Detecting FeaturesTests";
+			productReference = 88BB666817E2C62E00F11FEA /* Recipe 11-4 Detecting FeaturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88BB663F17E2C62E00F11FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					88BB666717E2C62E00F11FEA = {
+						TestTargetID = 88BB664617E2C62E00F11FEA;
+					};
+				};
+			};
+			buildConfigurationList = 88BB664217E2C62E00F11FEA /* Build configuration list for PBXProject "Recipe 11-4 Detecting Features" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88BB663E17E2C62E00F11FEA;
+			productRefGroup = 88BB664817E2C62E00F11FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88BB664617E2C62E00F11FEA /* Recipe 11-4 Detecting Features */,
+				88BB666717E2C62E00F11FEA /* Recipe 11-4 Detecting FeaturesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88BB664517E2C62E00F11FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BB666317E2C62E00F11FEA /* Images.xcassets in Resources */,
+				8849A7F718050B7400CA0A76 /* joentater.jpg in Resources */,
+				8849A7F518050B4300CA0A76 /* Dashboard_Widgets.zip in Resources */,
+				88BB665517E2C62E00F11FEA /* InfoPlist.strings in Resources */,
+				88BB665E17E2C62E00F11FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BB666617E2C62E00F11FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BB667417E2C62E00F11FEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88BB664317E2C62E00F11FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BB666117E2C62E00F11FEA /* ViewController.m in Sources */,
+				88BB665B17E2C62E00F11FEA /* AppDelegate.m in Sources */,
+				88BB665717E2C62E00F11FEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BB666417E2C62E00F11FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BB667617E2C62E00F11FEA /* Recipe_11_4__Detecting_FeaturesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88BB666E17E2C62E00F11FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88BB664617E2C62E00F11FEA /* Recipe 11-4 Detecting Features */;
+			targetProxy = 88BB666D17E2C62E00F11FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88BB665317E2C62E00F11FEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88BB665417E2C62E00F11FEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88BB665C17E2C62E00F11FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88BB665D17E2C62E00F11FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88BB667217E2C62E00F11FEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88BB667317E2C62E00F11FEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88BB667717E2C62E00F11FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88BB667817E2C62E00F11FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88BB667A17E2C62E00F11FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 11-4: Detecting Features/Recipe 11-4 Detecting Features-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 11-4: Detecting Features/Recipe 11-4 Detecting Features-Info.plist";
+				PRODUCT_NAME = "Recipe 11-4 Detecting Features";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88BB667B17E2C62E00F11FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 11-4: Detecting Features/Recipe 11-4 Detecting Features-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 11-4: Detecting Features/Recipe 11-4 Detecting Features-Info.plist";
+				PRODUCT_NAME = "Recipe 11-4 Detecting Features";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88BB667D17E2C62E00F11FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 11-4: Detecting Features.app/Recipe 11-4: Detecting Features";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 11-4: Detecting Features/Recipe 11-4: Detecting Features-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 11-4: Detecting FeaturesTests/Recipe 11-4 Detecting FeaturesTests-Info.plist";
+				PRODUCT_NAME = "Recipe 11-4 Detecting FeaturesTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88BB667E17E2C62E00F11FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 11-4: Detecting Features.app/Recipe 11-4: Detecting Features";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 11-4: Detecting Features/Recipe 11-4: Detecting Features-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 11-4: Detecting FeaturesTests/Recipe 11-4 Detecting FeaturesTests-Info.plist";
+				PRODUCT_NAME = "Recipe 11-4 Detecting FeaturesTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88BB664217E2C62E00F11FEA /* Build configuration list for PBXProject "Recipe 11-4 Detecting Features" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BB667717E2C62E00F11FEA /* Debug */,
+				88BB667817E2C62E00F11FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88BB667917E2C62E00F11FEA /* Build configuration list for PBXNativeTarget "Recipe 11-4 Detecting Features" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BB667A17E2C62E00F11FEA /* Debug */,
+				88BB667B17E2C62E00F11FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88BB667C17E2C62E00F11FEA /* Build configuration list for PBXNativeTarget "Recipe 11-4 Detecting FeaturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BB667D17E2C62E00F11FEA /* Debug */,
+				88BB667E17E2C62E00F11FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88BB663F17E2C62E00F11FEA /* Project object */;
+}

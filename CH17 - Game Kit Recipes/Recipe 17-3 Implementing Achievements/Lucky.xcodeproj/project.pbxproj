@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88039D1D17DD72BA00A298EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88039D1C17DD72BA00A298EF /* Foundation.framework */; };
+		88039D1F17DD72BA00A298EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88039D1E17DD72BA00A298EF /* CoreGraphics.framework */; };
+		88039D2117DD72BA00A298EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88039D2017DD72BA00A298EF /* UIKit.framework */; };
+		88039D2717DD72BA00A298EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88039D2517DD72BA00A298EF /* InfoPlist.strings */; };
+		88039D2917DD72BA00A298EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88039D2817DD72BA00A298EF /* main.m */; };
+		88039D2D17DD72BA00A298EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88039D2C17DD72BA00A298EF /* AppDelegate.m */; };
+		88039D3017DD72BA00A298EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88039D2E17DD72BA00A298EF /* Main.storyboard */; };
+		88039D3317DD72BA00A298EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88039D3217DD72BA00A298EF /* ViewController.m */; };
+		88039D3517DD72BA00A298EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88039D3417DD72BA00A298EF /* Images.xcassets */; };
+		88039D3C17DD72BA00A298EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88039D3B17DD72BA00A298EF /* XCTest.framework */; };
+		88039D3D17DD72BA00A298EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88039D1C17DD72BA00A298EF /* Foundation.framework */; };
+		88039D3E17DD72BA00A298EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88039D2017DD72BA00A298EF /* UIKit.framework */; };
+		88039D4617DD72BA00A298EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88039D4417DD72BA00A298EF /* InfoPlist.strings */; };
+		88039D4817DD72BA00A298EF /* Recipe_17_1_Making_Your_App_Game_Center_AwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88039D4717DD72BA00A298EF /* Recipe_17_1_Making_Your_App_Game_Center_AwareTests.m */; };
+		885BD41417DE95DA0069026B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885BD41217DE95DA0069026B /* GameViewController.m */; };
+		885BD41517DE95DA0069026B /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885BD41317DE95DA0069026B /* GameViewController.xib */; };
+		88C51E9117DECF360081BB46 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C51E9017DECF360081BB46 /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88039D3F17DD72BA00A298EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88039D1117DD72BA00A298EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88039D1817DD72BA00A298EF;
+			remoteInfo = "Recipe 17-1 Making Your App Game Center Aware";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88039D1917DD72BA00A298EF /* Lucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88039D1C17DD72BA00A298EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88039D1E17DD72BA00A298EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88039D2017DD72BA00A298EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88039D2417DD72BA00A298EF /* Lucky-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lucky-Info.plist"; sourceTree = "<group>"; };
+		88039D2617DD72BA00A298EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88039D2817DD72BA00A298EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88039D2A17DD72BA00A298EF /* Lucky-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lucky-Prefix.pch"; sourceTree = "<group>"; };
+		88039D2B17DD72BA00A298EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88039D2C17DD72BA00A298EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88039D2F17DD72BA00A298EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88039D3117DD72BA00A298EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88039D3217DD72BA00A298EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88039D3417DD72BA00A298EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88039D3A17DD72BA00A298EF /* LuckyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88039D3B17DD72BA00A298EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88039D4317DD72BA00A298EF /* LuckyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LuckyTests-Info.plist"; sourceTree = "<group>"; };
+		88039D4517DD72BA00A298EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88039D4717DD72BA00A298EF /* Recipe_17_1_Making_Your_App_Game_Center_AwareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_17_1_Making_Your_App_Game_Center_AwareTests.m; sourceTree = "<group>"; };
+		885BD41117DE95DA0069026B /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		885BD41217DE95DA0069026B /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		885BD41317DE95DA0069026B /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		88C51E9017DECF360081BB46 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88039D1617DD72BA00A298EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88039D1F17DD72BA00A298EF /* CoreGraphics.framework in Frameworks */,
+				88039D2117DD72BA00A298EF /* UIKit.framework in Frameworks */,
+				88039D1D17DD72BA00A298EF /* Foundation.framework in Frameworks */,
+				88C51E9117DECF360081BB46 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88039D3717DD72BA00A298EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88039D3C17DD72BA00A298EF /* XCTest.framework in Frameworks */,
+				88039D3E17DD72BA00A298EF /* UIKit.framework in Frameworks */,
+				88039D3D17DD72BA00A298EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88039D1017DD72BA00A298EF = {
+			isa = PBXGroup;
+			children = (
+				88039D2217DD72BA00A298EF /* Lucky */,
+				88039D4117DD72BA00A298EF /* Lucky Test */,
+				88039D1B17DD72BA00A298EF /* Frameworks */,
+				88039D1A17DD72BA00A298EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88039D1A17DD72BA00A298EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88039D1917DD72BA00A298EF /* Lucky.app */,
+				88039D3A17DD72BA00A298EF /* LuckyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88039D1B17DD72BA00A298EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C51E9017DECF360081BB46 /* GameKit.framework */,
+				88039D1C17DD72BA00A298EF /* Foundation.framework */,
+				88039D1E17DD72BA00A298EF /* CoreGraphics.framework */,
+				88039D2017DD72BA00A298EF /* UIKit.framework */,
+				88039D3B17DD72BA00A298EF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88039D2217DD72BA00A298EF /* Lucky */ = {
+			isa = PBXGroup;
+			children = (
+				88039D2B17DD72BA00A298EF /* AppDelegate.h */,
+				88039D2C17DD72BA00A298EF /* AppDelegate.m */,
+				88039D2E17DD72BA00A298EF /* Main.storyboard */,
+				885BD41117DE95DA0069026B /* GameViewController.h */,
+				885BD41217DE95DA0069026B /* GameViewController.m */,
+				885BD41317DE95DA0069026B /* GameViewController.xib */,
+				88039D3117DD72BA00A298EF /* ViewController.h */,
+				88039D3217DD72BA00A298EF /* ViewController.m */,
+				88039D3417DD72BA00A298EF /* Images.xcassets */,
+				88039D2317DD72BA00A298EF /* Supporting Files */,
+			);
+			name = Lucky;
+			path = "Recipe 17-1 Making Your App Game Center Aware";
+			sourceTree = "<group>";
+		};
+		88039D2317DD72BA00A298EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88039D2417DD72BA00A298EF /* Lucky-Info.plist */,
+				88039D2517DD72BA00A298EF /* InfoPlist.strings */,
+				88039D2817DD72BA00A298EF /* main.m */,
+				88039D2A17DD72BA00A298EF /* Lucky-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88039D4117DD72BA00A298EF /* Lucky Test */ = {
+			isa = PBXGroup;
+			children = (
+				88039D4717DD72BA00A298EF /* Recipe_17_1_Making_Your_App_Game_Center_AwareTests.m */,
+				88039D4217DD72BA00A298EF /* Supporting Files */,
+			);
+			name = "Lucky Test";
+			path = "Recipe 17-1 Making Your App Game Center AwareTests";
+			sourceTree = "<group>";
+		};
+		88039D4217DD72BA00A298EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88039D4317DD72BA00A298EF /* LuckyTests-Info.plist */,
+				88039D4417DD72BA00A298EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88039D1817DD72BA00A298EF /* Lucky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88039D4B17DD72BA00A298EF /* Build configuration list for PBXNativeTarget "Lucky" */;
+			buildPhases = (
+				88039D1517DD72BA00A298EF /* Sources */,
+				88039D1617DD72BA00A298EF /* Frameworks */,
+				88039D1717DD72BA00A298EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lucky;
+			productName = "Recipe 17-1 Making Your App Game Center Aware";
+			productReference = 88039D1917DD72BA00A298EF /* Lucky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88039D3917DD72BA00A298EF /* LuckyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88039D4E17DD72BA00A298EF /* Build configuration list for PBXNativeTarget "LuckyTests" */;
+			buildPhases = (
+				88039D3617DD72BA00A298EF /* Sources */,
+				88039D3717DD72BA00A298EF /* Frameworks */,
+				88039D3817DD72BA00A298EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88039D4017DD72BA00A298EF /* PBXTargetDependency */,
+			);
+			name = LuckyTests;
+			productName = "Recipe 17-1 Making Your App Game Center AwareTests";
+			productReference = 88039D3A17DD72BA00A298EF /* LuckyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88039D1117DD72BA00A298EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					88039D1817DD72BA00A298EF = {
+						DevelopmentTeam = H7ALWBN8YV;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					88039D3917DD72BA00A298EF = {
+						TestTargetID = 88039D1817DD72BA00A298EF;
+					};
+				};
+			};
+			buildConfigurationList = 88039D1417DD72BA00A298EF /* Build configuration list for PBXProject "Lucky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88039D1017DD72BA00A298EF;
+			productRefGroup = 88039D1A17DD72BA00A298EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88039D1817DD72BA00A298EF /* Lucky */,
+				88039D3917DD72BA00A298EF /* LuckyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88039D1717DD72BA00A298EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BD41517DE95DA0069026B /* GameViewController.xib in Resources */,
+				88039D3517DD72BA00A298EF /* Images.xcassets in Resources */,
+				88039D2717DD72BA00A298EF /* InfoPlist.strings in Resources */,
+				88039D3017DD72BA00A298EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88039D3817DD72BA00A298EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88039D4617DD72BA00A298EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88039D1517DD72BA00A298EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BD41417DE95DA0069026B /* GameViewController.m in Sources */,
+				88039D3317DD72BA00A298EF /* ViewController.m in Sources */,
+				88039D2D17DD72BA00A298EF /* AppDelegate.m in Sources */,
+				88039D2917DD72BA00A298EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88039D3617DD72BA00A298EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88039D4817DD72BA00A298EF /* Recipe_17_1_Making_Your_App_Game_Center_AwareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88039D4017DD72BA00A298EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88039D1817DD72BA00A298EF /* Lucky */;
+			targetProxy = 88039D3F17DD72BA00A298EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88039D2517DD72BA00A298EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88039D2617DD72BA00A298EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88039D2E17DD72BA00A298EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88039D2F17DD72BA00A298EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88039D4417DD72BA00A298EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88039D4517DD72BA00A298EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88039D4917DD72BA00A298EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88039D4A17DD72BA00A298EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88039D4C17DD72BA00A298EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 17-1 Making Your App Game Center Aware/Lucky-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 17-1 Making Your App Game Center Aware/Lucky-Info.plist";
+				PRODUCT_NAME = Lucky;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88039D4D17DD72BA00A298EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 17-1 Making Your App Game Center Aware/Lucky-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 17-1 Making Your App Game Center Aware/Lucky-Info.plist";
+				PRODUCT_NAME = Lucky;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88039D4F17DD72BA00A298EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 17-1 Making Your App Game Center Aware.app/Recipe 17-1 Making Your App Game Center Aware";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 17-1 Making Your App Game Center Aware/Recipe 17-1 Making Your App Game Center Aware-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 17-1 Making Your App Game Center AwareTests/LuckyTests-Info.plist";
+				PRODUCT_NAME = LuckyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88039D5017DD72BA00A298EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 17-1 Making Your App Game Center Aware.app/Recipe 17-1 Making Your App Game Center Aware";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 17-1 Making Your App Game Center Aware/Recipe 17-1 Making Your App Game Center Aware-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 17-1 Making Your App Game Center AwareTests/LuckyTests-Info.plist";
+				PRODUCT_NAME = LuckyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88039D1417DD72BA00A298EF /* Build configuration list for PBXProject "Lucky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88039D4917DD72BA00A298EF /* Debug */,
+				88039D4A17DD72BA00A298EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88039D4B17DD72BA00A298EF /* Build configuration list for PBXNativeTarget "Lucky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88039D4C17DD72BA00A298EF /* Debug */,
+				88039D4D17DD72BA00A298EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88039D4E17DD72BA00A298EF /* Build configuration list for PBXNativeTarget "LuckyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88039D4F17DD72BA00A298EF /* Debug */,
+				88039D5017DD72BA00A298EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88039D1117DD72BA00A298EF /* Project object */;
+}

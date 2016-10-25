@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8812927C17E6A7F70057E325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8812927B17E6A7F70057E325 /* Foundation.framework */; };
+		8812927E17E6A7F70057E325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8812927D17E6A7F70057E325 /* CoreGraphics.framework */; };
+		8812928017E6A7F70057E325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8812927F17E6A7F70057E325 /* UIKit.framework */; };
+		8812928617E6A7F70057E325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8812928417E6A7F70057E325 /* InfoPlist.strings */; };
+		8812928817E6A7F70057E325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8812928717E6A7F70057E325 /* main.m */; };
+		8812928C17E6A7F70057E325 /* GravityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8812928B17E6A7F70057E325 /* GravityAppDelegate.m */; };
+		8812928F17E6A7F70057E325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8812928D17E6A7F70057E325 /* Main.storyboard */; };
+		8812929217E6A7F70057E325 /* GravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8812929117E6A7F70057E325 /* GravityViewController.m */; };
+		8812929417E6A7F70057E325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8812929317E6A7F70057E325 /* Images.xcassets */; };
+		8812929B17E6A7F80057E325 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8812929A17E6A7F80057E325 /* XCTest.framework */; };
+		8812929C17E6A7F80057E325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8812927B17E6A7F70057E325 /* Foundation.framework */; };
+		8812929D17E6A7F80057E325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8812927F17E6A7F70057E325 /* UIKit.framework */; };
+		881292A517E6A7F80057E325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 881292A317E6A7F80057E325 /* InfoPlist.strings */; };
+		881292A717E6A7F80057E325 /* Recipe_13_2_Implementing_UIKit_DynamicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 881292A617E6A7F80057E325 /* Recipe_13_2_Implementing_UIKit_DynamicsTests.m */; };
+		881292B117E7D9DE0057E325 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 881292B017E7D9DE0057E325 /* Ball.png */; };
+		881292B417E7F7950057E325 /* GravityWithCollsionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881292B317E7F7950057E325 /* GravityWithCollsionViewController.m */; };
+		881292B717E93C040057E325 /* ItemPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881292B617E93C040057E325 /* ItemPropertyViewController.m */; };
+		881292BA17E947560057E325 /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881292B917E947560057E325 /* SnapViewController.m */; };
+		881292BD17E95A2B0057E325 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881292BC17E95A2B0057E325 /* PushViewController.m */; };
+		88C9422717EAC72900B412F9 /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C9422617EAC72800B412F9 /* Star.png */; };
+		88C9422A17EAC8C100B412F9 /* SpringAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C9422917EAC8C100B412F9 /* SpringAttachmentViewController.m */; };
+		88C9422D17EB730900B412F9 /* BouncingSpringBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C9422C17EB730900B412F9 /* BouncingSpringBehavior.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8812929E17E6A7F80057E325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8812927017E6A7F70057E325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8812927717E6A7F70057E325;
+			remoteInfo = "Recipe 13-2 Implementing UIKit Dynamics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8812927817E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 13-2 Implementing UIKit Dynamics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8812927B17E6A7F70057E325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8812927D17E6A7F70057E325 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8812927F17E6A7F70057E325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8812928317E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 13-2 Implementing UIKit Dynamics-Info.plist"; sourceTree = "<group>"; };
+		8812928517E6A7F70057E325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8812928717E6A7F70057E325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8812928917E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 13-2 Implementing UIKit Dynamics-Prefix.pch"; sourceTree = "<group>"; };
+		8812928A17E6A7F70057E325 /* GravityAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravityAppDelegate.h; sourceTree = "<group>"; };
+		8812928B17E6A7F70057E325 /* GravityAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityAppDelegate.m; sourceTree = "<group>"; };
+		8812928E17E6A7F70057E325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8812929017E6A7F70057E325 /* GravityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravityViewController.h; sourceTree = "<group>"; };
+		8812929117E6A7F70057E325 /* GravityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityViewController.m; sourceTree = "<group>"; };
+		8812929317E6A7F70057E325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8812929917E6A7F80057E325 /* Recipe 13-2 Implementing UIKit DynamicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 13-2 Implementing UIKit DynamicsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8812929A17E6A7F80057E325 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		881292A217E6A7F80057E325 /* Recipe 13-2 Implementing UIKit DynamicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 13-2 Implementing UIKit DynamicsTests-Info.plist"; sourceTree = "<group>"; };
+		881292A417E6A7F80057E325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		881292A617E6A7F80057E325 /* Recipe_13_2_Implementing_UIKit_DynamicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_13_2_Implementing_UIKit_DynamicsTests.m; sourceTree = "<group>"; };
+		881292B017E7D9DE0057E325 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		881292B217E7F7950057E325 /* GravityWithCollsionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityWithCollsionViewController.h; sourceTree = "<group>"; };
+		881292B317E7F7950057E325 /* GravityWithCollsionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityWithCollsionViewController.m; sourceTree = "<group>"; };
+		881292B517E93C040057E325 /* ItemPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemPropertyViewController.h; sourceTree = "<group>"; };
+		881292B617E93C040057E325 /* ItemPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemPropertyViewController.m; sourceTree = "<group>"; };
+		881292B817E947560057E325 /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
+		881292B917E947560057E325 /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
+		881292BB17E95A2B0057E325 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		881292BC17E95A2B0057E325 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		88C9422617EAC72800B412F9 /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
+		88C9422817EAC8C100B412F9 /* SpringAttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAttachmentViewController.h; sourceTree = "<group>"; };
+		88C9422917EAC8C100B412F9 /* SpringAttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAttachmentViewController.m; sourceTree = "<group>"; };
+		88C9422B17EB730900B412F9 /* BouncingSpringBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncingSpringBehavior.h; sourceTree = "<group>"; };
+		88C9422C17EB730900B412F9 /* BouncingSpringBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncingSpringBehavior.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8812927517E6A7F70057E325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8812927E17E6A7F70057E325 /* CoreGraphics.framework in Frameworks */,
+				8812928017E6A7F70057E325 /* UIKit.framework in Frameworks */,
+				8812927C17E6A7F70057E325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812929617E6A7F80057E325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8812929B17E6A7F80057E325 /* XCTest.framework in Frameworks */,
+				8812929D17E6A7F80057E325 /* UIKit.framework in Frameworks */,
+				8812929C17E6A7F80057E325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8812926F17E6A7F70057E325 = {
+			isa = PBXGroup;
+			children = (
+				88C9422B17EB730900B412F9 /* BouncingSpringBehavior.h */,
+				88C9422C17EB730900B412F9 /* BouncingSpringBehavior.m */,
+				8812928117E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics */,
+				881292A017E6A7F80057E325 /* Recipe 13-2 Implementing UIKit DynamicsTests */,
+				8812927A17E6A7F70057E325 /* Frameworks */,
+				8812927917E6A7F70057E325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8812927917E6A7F70057E325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8812927817E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics.app */,
+				8812929917E6A7F80057E325 /* Recipe 13-2 Implementing UIKit DynamicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8812927A17E6A7F70057E325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8812927B17E6A7F70057E325 /* Foundation.framework */,
+				8812927D17E6A7F70057E325 /* CoreGraphics.framework */,
+				8812927F17E6A7F70057E325 /* UIKit.framework */,
+				8812929A17E6A7F80057E325 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8812928117E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				8812928A17E6A7F70057E325 /* GravityAppDelegate.h */,
+				8812928B17E6A7F70057E325 /* GravityAppDelegate.m */,
+				8812928D17E6A7F70057E325 /* Main.storyboard */,
+				88C9422817EAC8C100B412F9 /* SpringAttachmentViewController.h */,
+				88C9422917EAC8C100B412F9 /* SpringAttachmentViewController.m */,
+				881292BB17E95A2B0057E325 /* PushViewController.h */,
+				881292BC17E95A2B0057E325 /* PushViewController.m */,
+				881292B817E947560057E325 /* SnapViewController.h */,
+				881292B917E947560057E325 /* SnapViewController.m */,
+				881292B517E93C040057E325 /* ItemPropertyViewController.h */,
+				881292B617E93C040057E325 /* ItemPropertyViewController.m */,
+				881292B217E7F7950057E325 /* GravityWithCollsionViewController.h */,
+				881292B317E7F7950057E325 /* GravityWithCollsionViewController.m */,
+				8812929017E6A7F70057E325 /* GravityViewController.h */,
+				8812929117E6A7F70057E325 /* GravityViewController.m */,
+				8812929317E6A7F70057E325 /* Images.xcassets */,
+				8812928217E6A7F70057E325 /* Supporting Files */,
+			);
+			path = "Recipe 13-2 Implementing UIKit Dynamics";
+			sourceTree = "<group>";
+		};
+		8812928217E6A7F70057E325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88C9422617EAC72800B412F9 /* Star.png */,
+				881292B017E7D9DE0057E325 /* Ball.png */,
+				8812928317E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics-Info.plist */,
+				8812928417E6A7F70057E325 /* InfoPlist.strings */,
+				8812928717E6A7F70057E325 /* main.m */,
+				8812928917E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		881292A017E6A7F80057E325 /* Recipe 13-2 Implementing UIKit DynamicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				881292A617E6A7F80057E325 /* Recipe_13_2_Implementing_UIKit_DynamicsTests.m */,
+				881292A117E6A7F80057E325 /* Supporting Files */,
+			);
+			path = "Recipe 13-2 Implementing UIKit DynamicsTests";
+			sourceTree = "<group>";
+		};
+		881292A117E6A7F80057E325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				881292A217E6A7F80057E325 /* Recipe 13-2 Implementing UIKit DynamicsTests-Info.plist */,
+				881292A317E6A7F80057E325 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8812927717E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881292AA17E6A7F80057E325 /* Build configuration list for PBXNativeTarget "Recipe 13-2 Implementing UIKit Dynamics" */;
+			buildPhases = (
+				8812927417E6A7F70057E325 /* Sources */,
+				8812927517E6A7F70057E325 /* Frameworks */,
+				8812927617E6A7F70057E325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 13-2 Implementing UIKit Dynamics";
+			productName = "Recipe 13-2 Implementing UIKit Dynamics";
+			productReference = 8812927817E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8812929817E6A7F80057E325 /* Recipe 13-2 Implementing UIKit DynamicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881292AD17E6A7F80057E325 /* Build configuration list for PBXNativeTarget "Recipe 13-2 Implementing UIKit DynamicsTests" */;
+			buildPhases = (
+				8812929517E6A7F80057E325 /* Sources */,
+				8812929617E6A7F80057E325 /* Frameworks */,
+				8812929717E6A7F80057E325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8812929F17E6A7F80057E325 /* PBXTargetDependency */,
+			);
+			name = "Recipe 13-2 Implementing UIKit DynamicsTests";
+			productName = "Recipe 13-2 Implementing UIKit DynamicsTests";
+			productReference = 8812929917E6A7F80057E325 /* Recipe 13-2 Implementing UIKit DynamicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8812927017E6A7F70057E325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Gravity;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					8812927717E6A7F70057E325 = {
+						DevelopmentTeam = H7ALWBN8YV;
+					};
+					8812929817E6A7F80057E325 = {
+						TestTargetID = 8812927717E6A7F70057E325;
+					};
+				};
+			};
+			buildConfigurationList = 8812927317E6A7F70057E325 /* Build configuration list for PBXProject "Recipe 13-2 Implementing UIKit Dynamics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8812926F17E6A7F70057E325;
+			productRefGroup = 8812927917E6A7F70057E325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8812927717E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics */,
+				8812929817E6A7F80057E325 /* Recipe 13-2 Implementing UIKit DynamicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8812927617E6A7F70057E325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8812929417E6A7F70057E325 /* Images.xcassets in Resources */,
+				8812928617E6A7F70057E325 /* InfoPlist.strings in Resources */,
+				88C9422717EAC72900B412F9 /* Star.png in Resources */,
+				881292B117E7D9DE0057E325 /* Ball.png in Resources */,
+				8812928F17E6A7F70057E325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812929717E6A7F80057E325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881292A517E6A7F80057E325 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8812927417E6A7F70057E325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8812928817E6A7F70057E325 /* main.m in Sources */,
+				88C9422D17EB730900B412F9 /* BouncingSpringBehavior.m in Sources */,
+				881292B717E93C040057E325 /* ItemPropertyViewController.m in Sources */,
+				8812928C17E6A7F70057E325 /* GravityAppDelegate.m in Sources */,
+				881292B417E7F7950057E325 /* GravityWithCollsionViewController.m in Sources */,
+				88C9422A17EAC8C100B412F9 /* SpringAttachmentViewController.m in Sources */,
+				881292BA17E947560057E325 /* SnapViewController.m in Sources */,
+				881292BD17E95A2B0057E325 /* PushViewController.m in Sources */,
+				8812929217E6A7F70057E325 /* GravityViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812929517E6A7F80057E325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881292A717E6A7F80057E325 /* Recipe_13_2_Implementing_UIKit_DynamicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8812929F17E6A7F80057E325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8812927717E6A7F70057E325 /* Recipe 13-2 Implementing UIKit Dynamics */;
+			targetProxy = 8812929E17E6A7F80057E325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8812928417E6A7F70057E325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8812928517E6A7F70057E325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8812928D17E6A7F70057E325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8812928E17E6A7F70057E325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		881292A317E6A7F80057E325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881292A417E6A7F80057E325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881292A817E6A7F80057E325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		881292A917E6A7F80057E325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881292AB17E6A7F80057E325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 13-2 Implementing UIKit Dynamics/Recipe 13-2 Implementing UIKit Dynamics-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 13-2 Implementing UIKit Dynamics/Recipe 13-2 Implementing UIKit Dynamics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		881292AC17E6A7F80057E325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 13-2 Implementing UIKit Dynamics/Recipe 13-2 Implementing UIKit Dynamics-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 13-2 Implementing UIKit Dynamics/Recipe 13-2 Implementing UIKit Dynamics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		881292AE17E6A7F80057E325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 13-2 Implementing UIKit Dynamics.app/Recipe 13-2 Implementing UIKit Dynamics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 13-2 Implementing UIKit Dynamics/Recipe 13-2 Implementing UIKit Dynamics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 13-2 Implementing UIKit DynamicsTests/Recipe 13-2 Implementing UIKit DynamicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		881292AF17E6A7F80057E325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 13-2 Implementing UIKit Dynamics.app/Recipe 13-2 Implementing UIKit Dynamics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 13-2 Implementing UIKit Dynamics/Recipe 13-2 Implementing UIKit Dynamics-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 13-2 Implementing UIKit DynamicsTests/Recipe 13-2 Implementing UIKit DynamicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8812927317E6A7F70057E325 /* Build configuration list for PBXProject "Recipe 13-2 Implementing UIKit Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881292A817E6A7F80057E325 /* Debug */,
+				881292A917E6A7F80057E325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881292AA17E6A7F80057E325 /* Build configuration list for PBXNativeTarget "Recipe 13-2 Implementing UIKit Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881292AB17E6A7F80057E325 /* Debug */,
+				881292AC17E6A7F80057E325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881292AD17E6A7F80057E325 /* Build configuration list for PBXNativeTarget "Recipe 13-2 Implementing UIKit DynamicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881292AE17E6A7F80057E325 /* Debug */,
+				881292AF17E6A7F80057E325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8812927017E6A7F70057E325 /* Project object */;
+}

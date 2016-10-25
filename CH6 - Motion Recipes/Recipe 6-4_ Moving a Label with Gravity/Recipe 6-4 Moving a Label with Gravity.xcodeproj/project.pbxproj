@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888B958B17B60C70000B5911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B958A17B60C70000B5911 /* Foundation.framework */; };
+		888B958D17B60C70000B5911 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B958C17B60C70000B5911 /* CoreGraphics.framework */; };
+		888B958F17B60C70000B5911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B958E17B60C70000B5911 /* UIKit.framework */; };
+		888B959517B60C70000B5911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888B959317B60C70000B5911 /* InfoPlist.strings */; };
+		888B959717B60C70000B5911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B959617B60C70000B5911 /* main.m */; };
+		888B959B17B60C70000B5911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B959A17B60C70000B5911 /* AppDelegate.m */; };
+		888B959E17B60C70000B5911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888B959C17B60C70000B5911 /* Main.storyboard */; };
+		888B95A117B60C70000B5911 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B95A017B60C70000B5911 /* ViewController.m */; };
+		888B95A317B60C70000B5911 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888B95A217B60C70000B5911 /* Images.xcassets */; };
+		888B95AA17B60C70000B5911 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B95A917B60C70000B5911 /* XCTest.framework */; };
+		888B95AB17B60C70000B5911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B958A17B60C70000B5911 /* Foundation.framework */; };
+		888B95AC17B60C70000B5911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B958E17B60C70000B5911 /* UIKit.framework */; };
+		888B95B417B60C70000B5911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888B95B217B60C70000B5911 /* InfoPlist.strings */; };
+		888B95B617B60C70000B5911 /* Recipe_6_4__Moving_a_Label_with_GravityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888B95B517B60C70000B5911 /* Recipe_6_4__Moving_a_Label_with_GravityTests.m */; };
+		888B95C017B60C8A000B5911 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B95BF17B60C8A000B5911 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888B95AD17B60C70000B5911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888B957F17B60C70000B5911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888B958617B60C70000B5911;
+			remoteInfo = "Recipe 6-4: Moving a Label with Gravity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		888B958717B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 6-4 Moving a Label with Gravity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888B958A17B60C70000B5911 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		888B958C17B60C70000B5911 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		888B958E17B60C70000B5911 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		888B959217B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 6-4 Moving a Label with Gravity-Info.plist"; sourceTree = "<group>"; };
+		888B959417B60C70000B5911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		888B959617B60C70000B5911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		888B959817B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 6-4 Moving a Label with Gravity-Prefix.pch"; sourceTree = "<group>"; };
+		888B959917B60C70000B5911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		888B959A17B60C70000B5911 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		888B959D17B60C70000B5911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888B959F17B60C70000B5911 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		888B95A017B60C70000B5911 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		888B95A217B60C70000B5911 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		888B95A817B60C70000B5911 /* Recipe 6-4 Moving a Label with GravityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 6-4 Moving a Label with GravityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888B95A917B60C70000B5911 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		888B95B117B60C70000B5911 /* Recipe 6-4 Moving a Label with GravityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 6-4 Moving a Label with GravityTests-Info.plist"; sourceTree = "<group>"; };
+		888B95B317B60C70000B5911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		888B95B517B60C70000B5911 /* Recipe_6_4__Moving_a_Label_with_GravityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_6_4__Moving_a_Label_with_GravityTests.m; sourceTree = "<group>"; };
+		888B95BF17B60C8A000B5911 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888B958417B60C70000B5911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B95C017B60C8A000B5911 /* CoreMotion.framework in Frameworks */,
+				888B958D17B60C70000B5911 /* CoreGraphics.framework in Frameworks */,
+				888B958F17B60C70000B5911 /* UIKit.framework in Frameworks */,
+				888B958B17B60C70000B5911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888B95A517B60C70000B5911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B95AA17B60C70000B5911 /* XCTest.framework in Frameworks */,
+				888B95AC17B60C70000B5911 /* UIKit.framework in Frameworks */,
+				888B95AB17B60C70000B5911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888B957E17B60C70000B5911 = {
+			isa = PBXGroup;
+			children = (
+				888B959017B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity */,
+				888B95AF17B60C70000B5911 /* Recipe 6-4 Moving a Label with GravityTests */,
+				888B958917B60C70000B5911 /* Frameworks */,
+				888B958817B60C70000B5911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888B958817B60C70000B5911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888B958717B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity.app */,
+				888B95A817B60C70000B5911 /* Recipe 6-4 Moving a Label with GravityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888B958917B60C70000B5911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888B95BF17B60C8A000B5911 /* CoreMotion.framework */,
+				888B958A17B60C70000B5911 /* Foundation.framework */,
+				888B958C17B60C70000B5911 /* CoreGraphics.framework */,
+				888B958E17B60C70000B5911 /* UIKit.framework */,
+				888B95A917B60C70000B5911 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		888B959017B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity */ = {
+			isa = PBXGroup;
+			children = (
+				888B959917B60C70000B5911 /* AppDelegate.h */,
+				888B959A17B60C70000B5911 /* AppDelegate.m */,
+				888B959C17B60C70000B5911 /* Main.storyboard */,
+				888B959F17B60C70000B5911 /* ViewController.h */,
+				888B95A017B60C70000B5911 /* ViewController.m */,
+				888B95A217B60C70000B5911 /* Images.xcassets */,
+				888B959117B60C70000B5911 /* Supporting Files */,
+			);
+			name = "Recipe 6-4 Moving a Label with Gravity";
+			path = "Recipe 6-4: Moving a Label with Gravity";
+			sourceTree = "<group>";
+		};
+		888B959117B60C70000B5911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888B959217B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity-Info.plist */,
+				888B959317B60C70000B5911 /* InfoPlist.strings */,
+				888B959617B60C70000B5911 /* main.m */,
+				888B959817B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		888B95AF17B60C70000B5911 /* Recipe 6-4 Moving a Label with GravityTests */ = {
+			isa = PBXGroup;
+			children = (
+				888B95B517B60C70000B5911 /* Recipe_6_4__Moving_a_Label_with_GravityTests.m */,
+				888B95B017B60C70000B5911 /* Supporting Files */,
+			);
+			name = "Recipe 6-4 Moving a Label with GravityTests";
+			path = "Recipe 6-4: Moving a Label with GravityTests";
+			sourceTree = "<group>";
+		};
+		888B95B017B60C70000B5911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888B95B117B60C70000B5911 /* Recipe 6-4 Moving a Label with GravityTests-Info.plist */,
+				888B95B217B60C70000B5911 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888B958617B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888B95B917B60C70000B5911 /* Build configuration list for PBXNativeTarget "Recipe 6-4 Moving a Label with Gravity" */;
+			buildPhases = (
+				888B958317B60C70000B5911 /* Sources */,
+				888B958417B60C70000B5911 /* Frameworks */,
+				888B958517B60C70000B5911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 6-4 Moving a Label with Gravity";
+			productName = "Recipe 6-4: Moving a Label with Gravity";
+			productReference = 888B958717B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		888B95A717B60C70000B5911 /* Recipe 6-4 Moving a Label with GravityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888B95BC17B60C70000B5911 /* Build configuration list for PBXNativeTarget "Recipe 6-4 Moving a Label with GravityTests" */;
+			buildPhases = (
+				888B95A417B60C70000B5911 /* Sources */,
+				888B95A517B60C70000B5911 /* Frameworks */,
+				888B95A617B60C70000B5911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888B95AE17B60C70000B5911 /* PBXTargetDependency */,
+			);
+			name = "Recipe 6-4 Moving a Label with GravityTests";
+			productName = "Recipe 6-4: Moving a Label with GravityTests";
+			productReference = 888B95A817B60C70000B5911 /* Recipe 6-4 Moving a Label with GravityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888B957F17B60C70000B5911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					888B95A717B60C70000B5911 = {
+						TestTargetID = 888B958617B60C70000B5911;
+					};
+				};
+			};
+			buildConfigurationList = 888B958217B60C70000B5911 /* Build configuration list for PBXProject "Recipe 6-4 Moving a Label with Gravity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888B957E17B60C70000B5911;
+			productRefGroup = 888B958817B60C70000B5911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888B958617B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity */,
+				888B95A717B60C70000B5911 /* Recipe 6-4 Moving a Label with GravityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888B958517B60C70000B5911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B95A317B60C70000B5911 /* Images.xcassets in Resources */,
+				888B959517B60C70000B5911 /* InfoPlist.strings in Resources */,
+				888B959E17B60C70000B5911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888B95A617B60C70000B5911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B95B417B60C70000B5911 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888B958317B60C70000B5911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B95A117B60C70000B5911 /* ViewController.m in Sources */,
+				888B959B17B60C70000B5911 /* AppDelegate.m in Sources */,
+				888B959717B60C70000B5911 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888B95A417B60C70000B5911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B95B617B60C70000B5911 /* Recipe_6_4__Moving_a_Label_with_GravityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		888B95AE17B60C70000B5911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888B958617B60C70000B5911 /* Recipe 6-4 Moving a Label with Gravity */;
+			targetProxy = 888B95AD17B60C70000B5911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		888B959317B60C70000B5911 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888B959417B60C70000B5911 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		888B959C17B60C70000B5911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888B959D17B60C70000B5911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		888B95B217B60C70000B5911 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888B95B317B60C70000B5911 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		888B95B717B60C70000B5911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		888B95B817B60C70000B5911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888B95BA17B60C70000B5911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6-4: Moving a Label with Gravity/Recipe 6-4 Moving a Label with Gravity-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6-4: Moving a Label with Gravity/Recipe 6-4 Moving a Label with Gravity-Info.plist";
+				PRODUCT_NAME = "Recipe 6-4 Moving a Label with Gravity";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		888B95BB17B60C70000B5911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6-4: Moving a Label with Gravity/Recipe 6-4 Moving a Label with Gravity-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6-4: Moving a Label with Gravity/Recipe 6-4 Moving a Label with Gravity-Info.plist";
+				PRODUCT_NAME = "Recipe 6-4 Moving a Label with Gravity";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		888B95BD17B60C70000B5911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 6-4: Moving a Label with Gravity.app/Recipe 6-4: Moving a Label with Gravity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6-4: Moving a Label with Gravity/Recipe 6-4: Moving a Label with Gravity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 6-4: Moving a Label with GravityTests/Recipe 6-4 Moving a Label with GravityTests-Info.plist";
+				PRODUCT_NAME = "Recipe 6-4 Moving a Label with GravityTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		888B95BE17B60C70000B5911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 6-4: Moving a Label with Gravity.app/Recipe 6-4: Moving a Label with Gravity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 6-4: Moving a Label with Gravity/Recipe 6-4: Moving a Label with Gravity-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 6-4: Moving a Label with GravityTests/Recipe 6-4 Moving a Label with GravityTests-Info.plist";
+				PRODUCT_NAME = "Recipe 6-4 Moving a Label with GravityTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888B958217B60C70000B5911 /* Build configuration list for PBXProject "Recipe 6-4 Moving a Label with Gravity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888B95B717B60C70000B5911 /* Debug */,
+				888B95B817B60C70000B5911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888B95B917B60C70000B5911 /* Build configuration list for PBXNativeTarget "Recipe 6-4 Moving a Label with Gravity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888B95BA17B60C70000B5911 /* Debug */,
+				888B95BB17B60C70000B5911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888B95BC17B60C70000B5911 /* Build configuration list for PBXNativeTarget "Recipe 6-4 Moving a Label with GravityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888B95BD17B60C70000B5911 /* Debug */,
+				888B95BE17B60C70000B5911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 888B957F17B60C70000B5911 /* Project object */;
+}

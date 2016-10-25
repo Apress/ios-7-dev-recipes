@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885F859117CD7F7300590488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F859017CD7F7300590488 /* Foundation.framework */; };
+		885F859317CD7F7300590488 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F859217CD7F7300590488 /* CoreGraphics.framework */; };
+		885F859517CD7F7300590488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F859417CD7F7300590488 /* UIKit.framework */; };
+		885F859B17CD7F7300590488 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 885F859917CD7F7300590488 /* InfoPlist.strings */; };
+		885F859D17CD7F7300590488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F859C17CD7F7300590488 /* main.m */; };
+		885F85A117CD7F7300590488 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F85A017CD7F7300590488 /* AppDelegate.m */; };
+		885F85A417CD7F7300590488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885F85A217CD7F7300590488 /* Main.storyboard */; };
+		885F85A717CD7F7300590488 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F85A617CD7F7300590488 /* ViewController.m */; };
+		885F85A917CD7F7300590488 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885F85A817CD7F7300590488 /* Images.xcassets */; };
+		885F85B017CD7F7300590488 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F85AF17CD7F7300590488 /* XCTest.framework */; };
+		885F85B117CD7F7300590488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F859017CD7F7300590488 /* Foundation.framework */; };
+		885F85B217CD7F7300590488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F859417CD7F7300590488 /* UIKit.framework */; };
+		885F85BA17CD7F7300590488 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 885F85B817CD7F7300590488 /* InfoPlist.strings */; };
+		885F85BC17CD7F7300590488 /* Recipe_10_4_Playing_Background_AudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F85BB17CD7F7300590488 /* Recipe_10_4_Playing_Background_AudioTests.m */; };
+		885F85C617CD7F9F00590488 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F85C517CD7F9F00590488 /* AVFoundation.framework */; };
+		885F85C817CD7FAA00590488 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F85C717CD7FAA00590488 /* MediaPlayer.framework */; };
+		885F85CA17CD7FB300590488 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F85C917CD7FB300590488 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885F85B317CD7F7300590488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885F858517CD7F7300590488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885F858C17CD7F7300590488;
+			remoteInfo = "Recipe 10-4 Playing Background Audio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		885F858D17CD7F7300590488 /* Recipe 10-4 Playing Background Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 10-4 Playing Background Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		885F859017CD7F7300590488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		885F859217CD7F7300590488 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		885F859417CD7F7300590488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		885F859817CD7F7300590488 /* Recipe 10-4 Playing Background Audio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 10-4 Playing Background Audio-Info.plist"; sourceTree = "<group>"; };
+		885F859A17CD7F7300590488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		885F859C17CD7F7300590488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		885F859E17CD7F7300590488 /* Recipe 10-4 Playing Background Audio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 10-4 Playing Background Audio-Prefix.pch"; sourceTree = "<group>"; };
+		885F859F17CD7F7300590488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		885F85A017CD7F7300590488 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		885F85A317CD7F7300590488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		885F85A517CD7F7300590488 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		885F85A617CD7F7300590488 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		885F85A817CD7F7300590488 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		885F85AE17CD7F7300590488 /* Recipe 10-4 Playing Background AudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 10-4 Playing Background AudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		885F85AF17CD7F7300590488 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		885F85B717CD7F7300590488 /* Recipe 10-4 Playing Background AudioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 10-4 Playing Background AudioTests-Info.plist"; sourceTree = "<group>"; };
+		885F85B917CD7F7300590488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		885F85BB17CD7F7300590488 /* Recipe_10_4_Playing_Background_AudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_10_4_Playing_Background_AudioTests.m; sourceTree = "<group>"; };
+		885F85C517CD7F9F00590488 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		885F85C717CD7FAA00590488 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		885F85C917CD7FB300590488 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885F858A17CD7F7300590488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F85CA17CD7FB300590488 /* CoreMedia.framework in Frameworks */,
+				885F85C817CD7FAA00590488 /* MediaPlayer.framework in Frameworks */,
+				885F85C617CD7F9F00590488 /* AVFoundation.framework in Frameworks */,
+				885F859317CD7F7300590488 /* CoreGraphics.framework in Frameworks */,
+				885F859517CD7F7300590488 /* UIKit.framework in Frameworks */,
+				885F859117CD7F7300590488 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885F85AB17CD7F7300590488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F85B017CD7F7300590488 /* XCTest.framework in Frameworks */,
+				885F85B217CD7F7300590488 /* UIKit.framework in Frameworks */,
+				885F85B117CD7F7300590488 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885F858417CD7F7300590488 = {
+			isa = PBXGroup;
+			children = (
+				885F859617CD7F7300590488 /* Recipe 10-4 Playing Background Audio */,
+				885F85B517CD7F7300590488 /* Recipe 10-4 Playing Background AudioTests */,
+				885F858F17CD7F7300590488 /* Frameworks */,
+				885F858E17CD7F7300590488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885F858E17CD7F7300590488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885F858D17CD7F7300590488 /* Recipe 10-4 Playing Background Audio.app */,
+				885F85AE17CD7F7300590488 /* Recipe 10-4 Playing Background AudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885F858F17CD7F7300590488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				885F85C917CD7FB300590488 /* CoreMedia.framework */,
+				885F85C717CD7FAA00590488 /* MediaPlayer.framework */,
+				885F85C517CD7F9F00590488 /* AVFoundation.framework */,
+				885F859017CD7F7300590488 /* Foundation.framework */,
+				885F859217CD7F7300590488 /* CoreGraphics.framework */,
+				885F859417CD7F7300590488 /* UIKit.framework */,
+				885F85AF17CD7F7300590488 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		885F859617CD7F7300590488 /* Recipe 10-4 Playing Background Audio */ = {
+			isa = PBXGroup;
+			children = (
+				885F859F17CD7F7300590488 /* AppDelegate.h */,
+				885F85A017CD7F7300590488 /* AppDelegate.m */,
+				885F85A217CD7F7300590488 /* Main.storyboard */,
+				885F85A517CD7F7300590488 /* ViewController.h */,
+				885F85A617CD7F7300590488 /* ViewController.m */,
+				885F85A817CD7F7300590488 /* Images.xcassets */,
+				885F859717CD7F7300590488 /* Supporting Files */,
+			);
+			path = "Recipe 10-4 Playing Background Audio";
+			sourceTree = "<group>";
+		};
+		885F859717CD7F7300590488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885F859817CD7F7300590488 /* Recipe 10-4 Playing Background Audio-Info.plist */,
+				885F859917CD7F7300590488 /* InfoPlist.strings */,
+				885F859C17CD7F7300590488 /* main.m */,
+				885F859E17CD7F7300590488 /* Recipe 10-4 Playing Background Audio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		885F85B517CD7F7300590488 /* Recipe 10-4 Playing Background AudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				885F85BB17CD7F7300590488 /* Recipe_10_4_Playing_Background_AudioTests.m */,
+				885F85B617CD7F7300590488 /* Supporting Files */,
+			);
+			path = "Recipe 10-4 Playing Background AudioTests";
+			sourceTree = "<group>";
+		};
+		885F85B617CD7F7300590488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885F85B717CD7F7300590488 /* Recipe 10-4 Playing Background AudioTests-Info.plist */,
+				885F85B817CD7F7300590488 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885F858C17CD7F7300590488 /* Recipe 10-4 Playing Background Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885F85BF17CD7F7300590488 /* Build configuration list for PBXNativeTarget "Recipe 10-4 Playing Background Audio" */;
+			buildPhases = (
+				885F858917CD7F7300590488 /* Sources */,
+				885F858A17CD7F7300590488 /* Frameworks */,
+				885F858B17CD7F7300590488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 10-4 Playing Background Audio";
+			productName = "Recipe 10-4 Playing Background Audio";
+			productReference = 885F858D17CD7F7300590488 /* Recipe 10-4 Playing Background Audio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885F85AD17CD7F7300590488 /* Recipe 10-4 Playing Background AudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885F85C217CD7F7300590488 /* Build configuration list for PBXNativeTarget "Recipe 10-4 Playing Background AudioTests" */;
+			buildPhases = (
+				885F85AA17CD7F7300590488 /* Sources */,
+				885F85AB17CD7F7300590488 /* Frameworks */,
+				885F85AC17CD7F7300590488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885F85B417CD7F7300590488 /* PBXTargetDependency */,
+			);
+			name = "Recipe 10-4 Playing Background AudioTests";
+			productName = "Recipe 10-4 Playing Background AudioTests";
+			productReference = 885F85AE17CD7F7300590488 /* Recipe 10-4 Playing Background AudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885F858517CD7F7300590488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					885F85AD17CD7F7300590488 = {
+						TestTargetID = 885F858C17CD7F7300590488;
+					};
+				};
+			};
+			buildConfigurationList = 885F858817CD7F7300590488 /* Build configuration list for PBXProject "Recipe 10-4 Playing Background Audio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 885F858417CD7F7300590488;
+			productRefGroup = 885F858E17CD7F7300590488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885F858C17CD7F7300590488 /* Recipe 10-4 Playing Background Audio */,
+				885F85AD17CD7F7300590488 /* Recipe 10-4 Playing Background AudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885F858B17CD7F7300590488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F85A917CD7F7300590488 /* Images.xcassets in Resources */,
+				885F859B17CD7F7300590488 /* InfoPlist.strings in Resources */,
+				885F85A417CD7F7300590488 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885F85AC17CD7F7300590488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F85BA17CD7F7300590488 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885F858917CD7F7300590488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F85A717CD7F7300590488 /* ViewController.m in Sources */,
+				885F85A117CD7F7300590488 /* AppDelegate.m in Sources */,
+				885F859D17CD7F7300590488 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885F85AA17CD7F7300590488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F85BC17CD7F7300590488 /* Recipe_10_4_Playing_Background_AudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885F85B417CD7F7300590488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885F858C17CD7F7300590488 /* Recipe 10-4 Playing Background Audio */;
+			targetProxy = 885F85B317CD7F7300590488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		885F859917CD7F7300590488 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885F859A17CD7F7300590488 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		885F85A217CD7F7300590488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885F85A317CD7F7300590488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		885F85B817CD7F7300590488 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885F85B917CD7F7300590488 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		885F85BD17CD7F7300590488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		885F85BE17CD7F7300590488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		885F85C017CD7F7300590488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 10-4 Playing Background Audio/Recipe 10-4 Playing Background Audio-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 10-4 Playing Background Audio/Recipe 10-4 Playing Background Audio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		885F85C117CD7F7300590488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 10-4 Playing Background Audio/Recipe 10-4 Playing Background Audio-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 10-4 Playing Background Audio/Recipe 10-4 Playing Background Audio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		885F85C317CD7F7300590488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 10-4 Playing Background Audio.app/Recipe 10-4 Playing Background Audio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 10-4 Playing Background Audio/Recipe 10-4 Playing Background Audio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 10-4 Playing Background AudioTests/Recipe 10-4 Playing Background AudioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		885F85C417CD7F7300590488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 10-4 Playing Background Audio.app/Recipe 10-4 Playing Background Audio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 10-4 Playing Background Audio/Recipe 10-4 Playing Background Audio-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 10-4 Playing Background AudioTests/Recipe 10-4 Playing Background AudioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885F858817CD7F7300590488 /* Build configuration list for PBXProject "Recipe 10-4 Playing Background Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885F85BD17CD7F7300590488 /* Debug */,
+				885F85BE17CD7F7300590488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885F85BF17CD7F7300590488 /* Build configuration list for PBXNativeTarget "Recipe 10-4 Playing Background Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885F85C017CD7F7300590488 /* Debug */,
+				885F85C117CD7F7300590488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		885F85C217CD7F7300590488 /* Build configuration list for PBXNativeTarget "Recipe 10-4 Playing Background AudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885F85C317CD7F7300590488 /* Debug */,
+				885F85C417CD7F7300590488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885F858517CD7F7300590488 /* Project object */;
+}

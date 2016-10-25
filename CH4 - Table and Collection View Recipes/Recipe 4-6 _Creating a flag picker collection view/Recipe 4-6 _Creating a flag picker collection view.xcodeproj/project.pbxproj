@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		884A48CF1794C65E0098E250 /* ContinentHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 884A48CE1794C65E0098E250 /* ContinentHeader.m */; };
+		884A48D01794C65E0098E250 /* ContinentHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 884A48CE1794C65E0098E250 /* ContinentHeader.m */; };
+		8887A3C9179224EE0097037C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887A3C8179224EE0097037C /* Foundation.framework */; };
+		8887A3CB179224EE0097037C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887A3CA179224EE0097037C /* CoreGraphics.framework */; };
+		8887A3CD179224EE0097037C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887A3CC179224EE0097037C /* UIKit.framework */; };
+		8887A3D3179224EE0097037C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8887A3D1179224EE0097037C /* InfoPlist.strings */; };
+		8887A3D5179224EE0097037C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A3D4179224EE0097037C /* main.m */; };
+		8887A3D9179224EE0097037C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A3D8179224EE0097037C /* AppDelegate.m */; };
+		8887A3DC179224EE0097037C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8887A3DA179224EE0097037C /* Main.storyboard */; };
+		8887A3DF179224EE0097037C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A3DE179224EE0097037C /* ViewController.m */; };
+		8887A3E1179224EE0097037C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8887A3E0179224EE0097037C /* Images.xcassets */; };
+		8887A3E8179224EE0097037C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887A3E7179224EE0097037C /* XCTest.framework */; };
+		8887A3E9179224EE0097037C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887A3C8179224EE0097037C /* Foundation.framework */; };
+		8887A3EA179224EE0097037C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887A3CC179224EE0097037C /* UIKit.framework */; };
+		8887A3F2179224EE0097037C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8887A3F0179224EE0097037C /* InfoPlist.strings */; };
+		8887A3F4179224EE0097037C /* Recipe_4_6__Creating_a_flag_picker_collection_viewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A3F3179224EE0097037C /* Recipe_4_6__Creating_a_flag_picker_collection_viewTests.m */; };
+		8887A41B179225370097037C /* Argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A3FD179225370097037C /* Argentina.png */; };
+		8887A41C179225370097037C /* Australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A3FE179225370097037C /* Australia.png */; };
+		8887A41D179225370097037C /* Brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A3FF179225370097037C /* Brazil.png */; };
+		8887A41E179225370097037C /* Canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A400179225370097037C /* Canada.png */; };
+		8887A41F179225370097037C /* Chile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A401179225370097037C /* Chile.png */; };
+		8887A420179225370097037C /* China.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A402179225370097037C /* China.png */; };
+		8887A421179225370097037C /* France.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A403179225370097037C /* France.png */; };
+		8887A422179225370097037C /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A404179225370097037C /* Germany.png */; };
+		8887A423179225370097037C /* Ghana.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A405179225370097037C /* Ghana.png */; };
+		8887A424179225370097037C /* Iceland.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A406179225370097037C /* Iceland.png */; };
+		8887A425179225370097037C /* India.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A407179225370097037C /* India.png */; };
+		8887A426179225370097037C /* Ireland.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A408179225370097037C /* Ireland.png */; };
+		8887A427179225370097037C /* Italy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A409179225370097037C /* Italy.png */; };
+		8887A428179225370097037C /* Japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A40A179225370097037C /* Japan.png */; };
+		8887A429179225370097037C /* Kenya.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A40B179225370097037C /* Kenya.png */; };
+		8887A42A179225370097037C /* Malta.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A40C179225370097037C /* Malta.png */; };
+		8887A42B179225370097037C /* Mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A40D179225370097037C /* Mexico.png */; };
+		8887A42C179225370097037C /* Mongolia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A40E179225370097037C /* Mongolia.png */; };
+		8887A42D179225370097037C /* Morocco.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A40F179225370097037C /* Morocco.png */; };
+		8887A42E179225370097037C /* Mozambique.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A410179225370097037C /* Mozambique.png */; };
+		8887A42F179225370097037C /* New_Zealand.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A411179225370097037C /* New_Zealand.png */; };
+		8887A430179225370097037C /* Poland.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A412179225370097037C /* Poland.png */; };
+		8887A431179225370097037C /* Russia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A413179225370097037C /* Russia.png */; };
+		8887A432179225370097037C /* Rwanda.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A414179225370097037C /* Rwanda.png */; };
+		8887A433179225370097037C /* South_Africa.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A415179225370097037C /* South_Africa.png */; };
+		8887A434179225370097037C /* Spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A416179225370097037C /* Spain.png */; };
+		8887A435179225370097037C /* Sweden.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A417179225370097037C /* Sweden.png */; };
+		8887A436179225370097037C /* Turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A418179225370097037C /* Turkey.png */; };
+		8887A437179225370097037C /* United_Kingdom.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A419179225370097037C /* United_Kingdom.png */; };
+		8887A438179225370097037C /* United_States.png in Resources */ = {isa = PBXBuildFile; fileRef = 8887A41A179225370097037C /* United_States.png */; };
+		8887A43C179227DA0097037C /* Flag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A43B179227DA0097037C /* Flag.m */; };
+		8887A43D179227DA0097037C /* Flag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A43B179227DA0097037C /* Flag.m */; };
+		8887A440179228F40097037C /* FlagPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A43F179228F40097037C /* FlagPickerViewController.m */; };
+		8887A441179228F40097037C /* FlagPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A43F179228F40097037C /* FlagPickerViewController.m */; };
+		8887A44417922EB90097037C /* FlagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A44317922EB90097037C /* FlagCell.m */; };
+		8887A44517922EB90097037C /* FlagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A44317922EB90097037C /* FlagCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8887A3EB179224EE0097037C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8887A3BD179224EE0097037C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8887A3C4179224EE0097037C;
+			remoteInfo = "Recipe 4-6 :Creating a flag picker collection view";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		884A48CD1794C65E0098E250 /* ContinentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinentHeader.h; sourceTree = "<group>"; };
+		884A48CE1794C65E0098E250 /* ContinentHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinentHeader.m; sourceTree = "<group>"; };
+		8887A3C5179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 4-6 :Creating a flag picker collection view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8887A3C8179224EE0097037C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8887A3CA179224EE0097037C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8887A3CC179224EE0097037C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8887A3D0179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 4-6 :Creating a flag picker collection view-Info.plist"; sourceTree = "<group>"; };
+		8887A3D2179224EE0097037C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8887A3D4179224EE0097037C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8887A3D6179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 4-6 :Creating a flag picker collection view-Prefix.pch"; sourceTree = "<group>"; };
+		8887A3D7179224EE0097037C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8887A3D8179224EE0097037C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8887A3DB179224EE0097037C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8887A3DD179224EE0097037C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8887A3DE179224EE0097037C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8887A3E0179224EE0097037C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8887A3E6179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 4-6 :Creating a flag picker collection viewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8887A3E7179224EE0097037C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8887A3EF179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection viewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 4-6 :Creating a flag picker collection viewTests-Info.plist"; sourceTree = "<group>"; };
+		8887A3F1179224EE0097037C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8887A3F3179224EE0097037C /* Recipe_4_6__Creating_a_flag_picker_collection_viewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_4_6__Creating_a_flag_picker_collection_viewTests.m; sourceTree = "<group>"; };
+		8887A3FD179225370097037C /* Argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Argentina.png; sourceTree = "<group>"; };
+		8887A3FE179225370097037C /* Australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Australia.png; sourceTree = "<group>"; };
+		8887A3FF179225370097037C /* Brazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brazil.png; sourceTree = "<group>"; };
+		8887A400179225370097037C /* Canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Canada.png; sourceTree = "<group>"; };
+		8887A401179225370097037C /* Chile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chile.png; sourceTree = "<group>"; };
+		8887A402179225370097037C /* China.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = China.png; sourceTree = "<group>"; };
+		8887A403179225370097037C /* France.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = France.png; sourceTree = "<group>"; };
+		8887A404179225370097037C /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germany.png; sourceTree = "<group>"; };
+		8887A405179225370097037C /* Ghana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ghana.png; sourceTree = "<group>"; };
+		8887A406179225370097037C /* Iceland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iceland.png; sourceTree = "<group>"; };
+		8887A407179225370097037C /* India.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = India.png; sourceTree = "<group>"; };
+		8887A408179225370097037C /* Ireland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ireland.png; sourceTree = "<group>"; };
+		8887A409179225370097037C /* Italy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Italy.png; sourceTree = "<group>"; };
+		8887A40A179225370097037C /* Japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japan.png; sourceTree = "<group>"; };
+		8887A40B179225370097037C /* Kenya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kenya.png; sourceTree = "<group>"; };
+		8887A40C179225370097037C /* Malta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Malta.png; sourceTree = "<group>"; };
+		8887A40D179225370097037C /* Mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexico.png; sourceTree = "<group>"; };
+		8887A40E179225370097037C /* Mongolia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mongolia.png; sourceTree = "<group>"; };
+		8887A40F179225370097037C /* Morocco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Morocco.png; sourceTree = "<group>"; };
+		8887A410179225370097037C /* Mozambique.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mozambique.png; sourceTree = "<group>"; };
+		8887A411179225370097037C /* New_Zealand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = New_Zealand.png; sourceTree = "<group>"; };
+		8887A412179225370097037C /* Poland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poland.png; sourceTree = "<group>"; };
+		8887A413179225370097037C /* Russia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Russia.png; sourceTree = "<group>"; };
+		8887A414179225370097037C /* Rwanda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rwanda.png; sourceTree = "<group>"; };
+		8887A415179225370097037C /* South_Africa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = South_Africa.png; sourceTree = "<group>"; };
+		8887A416179225370097037C /* Spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spain.png; sourceTree = "<group>"; };
+		8887A417179225370097037C /* Sweden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sweden.png; sourceTree = "<group>"; };
+		8887A418179225370097037C /* Turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turkey.png; sourceTree = "<group>"; };
+		8887A419179225370097037C /* United_Kingdom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = United_Kingdom.png; sourceTree = "<group>"; };
+		8887A41A179225370097037C /* United_States.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = United_States.png; sourceTree = "<group>"; };
+		8887A43A179227DA0097037C /* Flag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flag.h; sourceTree = "<group>"; };
+		8887A43B179227DA0097037C /* Flag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flag.m; sourceTree = "<group>"; };
+		8887A43E179228F40097037C /* FlagPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagPickerViewController.h; sourceTree = "<group>"; };
+		8887A43F179228F40097037C /* FlagPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagPickerViewController.m; sourceTree = "<group>"; };
+		8887A44217922EB90097037C /* FlagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagCell.h; sourceTree = "<group>"; };
+		8887A44317922EB90097037C /* FlagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8887A3C2179224EE0097037C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8887A3CB179224EE0097037C /* CoreGraphics.framework in Frameworks */,
+				8887A3CD179224EE0097037C /* UIKit.framework in Frameworks */,
+				8887A3C9179224EE0097037C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8887A3E3179224EE0097037C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8887A3E8179224EE0097037C /* XCTest.framework in Frameworks */,
+				8887A3EA179224EE0097037C /* UIKit.framework in Frameworks */,
+				8887A3E9179224EE0097037C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8887A3BC179224EE0097037C = {
+			isa = PBXGroup;
+			children = (
+				8887A3CE179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view */,
+				8887A3ED179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection viewTests */,
+				8887A3C7179224EE0097037C /* Frameworks */,
+				8887A3C6179224EE0097037C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8887A3C6179224EE0097037C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8887A3C5179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view.app */,
+				8887A3E6179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection viewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8887A3C7179224EE0097037C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8887A3C8179224EE0097037C /* Foundation.framework */,
+				8887A3CA179224EE0097037C /* CoreGraphics.framework */,
+				8887A3CC179224EE0097037C /* UIKit.framework */,
+				8887A3E7179224EE0097037C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8887A3CE179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view */ = {
+			isa = PBXGroup;
+			children = (
+				8887A3D7179224EE0097037C /* AppDelegate.h */,
+				8887A3D8179224EE0097037C /* AppDelegate.m */,
+				8887A3DA179224EE0097037C /* Main.storyboard */,
+				8887A43A179227DA0097037C /* Flag.h */,
+				8887A43B179227DA0097037C /* Flag.m */,
+				8887A43E179228F40097037C /* FlagPickerViewController.h */,
+				8887A43F179228F40097037C /* FlagPickerViewController.m */,
+				8887A44217922EB90097037C /* FlagCell.h */,
+				8887A44317922EB90097037C /* FlagCell.m */,
+				884A48CD1794C65E0098E250 /* ContinentHeader.h */,
+				884A48CE1794C65E0098E250 /* ContinentHeader.m */,
+				8887A3DD179224EE0097037C /* ViewController.h */,
+				8887A3DE179224EE0097037C /* ViewController.m */,
+				8887A3E0179224EE0097037C /* Images.xcassets */,
+				8887A3CF179224EE0097037C /* Supporting Files */,
+			);
+			path = "Recipe 4-6 :Creating a flag picker collection view";
+			sourceTree = "<group>";
+		};
+		8887A3CF179224EE0097037C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8887A4391792253D0097037C /* flag images */,
+				8887A3D0179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view-Info.plist */,
+				8887A3D1179224EE0097037C /* InfoPlist.strings */,
+				8887A3D4179224EE0097037C /* main.m */,
+				8887A3D6179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8887A3ED179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection viewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8887A3F3179224EE0097037C /* Recipe_4_6__Creating_a_flag_picker_collection_viewTests.m */,
+				8887A3EE179224EE0097037C /* Supporting Files */,
+			);
+			path = "Recipe 4-6 :Creating a flag picker collection viewTests";
+			sourceTree = "<group>";
+		};
+		8887A3EE179224EE0097037C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8887A3EF179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection viewTests-Info.plist */,
+				8887A3F0179224EE0097037C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8887A4391792253D0097037C /* flag images */ = {
+			isa = PBXGroup;
+			children = (
+				8887A3FD179225370097037C /* Argentina.png */,
+				8887A3FE179225370097037C /* Australia.png */,
+				8887A3FF179225370097037C /* Brazil.png */,
+				8887A400179225370097037C /* Canada.png */,
+				8887A401179225370097037C /* Chile.png */,
+				8887A402179225370097037C /* China.png */,
+				8887A403179225370097037C /* France.png */,
+				8887A404179225370097037C /* Germany.png */,
+				8887A405179225370097037C /* Ghana.png */,
+				8887A406179225370097037C /* Iceland.png */,
+				8887A407179225370097037C /* India.png */,
+				8887A408179225370097037C /* Ireland.png */,
+				8887A409179225370097037C /* Italy.png */,
+				8887A40A179225370097037C /* Japan.png */,
+				8887A40B179225370097037C /* Kenya.png */,
+				8887A40C179225370097037C /* Malta.png */,
+				8887A40D179225370097037C /* Mexico.png */,
+				8887A40E179225370097037C /* Mongolia.png */,
+				8887A40F179225370097037C /* Morocco.png */,
+				8887A410179225370097037C /* Mozambique.png */,
+				8887A411179225370097037C /* New_Zealand.png */,
+				8887A412179225370097037C /* Poland.png */,
+				8887A413179225370097037C /* Russia.png */,
+				8887A414179225370097037C /* Rwanda.png */,
+				8887A415179225370097037C /* South_Africa.png */,
+				8887A416179225370097037C /* Spain.png */,
+				8887A417179225370097037C /* Sweden.png */,
+				8887A418179225370097037C /* Turkey.png */,
+				8887A419179225370097037C /* United_Kingdom.png */,
+				8887A41A179225370097037C /* United_States.png */,
+			);
+			name = "flag images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8887A3C4179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8887A3F7179224EE0097037C /* Build configuration list for PBXNativeTarget "Recipe 4-6 :Creating a flag picker collection view" */;
+			buildPhases = (
+				8887A3C1179224EE0097037C /* Sources */,
+				8887A3C2179224EE0097037C /* Frameworks */,
+				8887A3C3179224EE0097037C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 4-6 :Creating a flag picker collection view";
+			productName = "Recipe 4-6 :Creating a flag picker collection view";
+			productReference = 8887A3C5179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8887A3E5179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection viewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8887A3FA179224EE0097037C /* Build configuration list for PBXNativeTarget "Recipe 4-6 :Creating a flag picker collection viewTests" */;
+			buildPhases = (
+				8887A3E2179224EE0097037C /* Sources */,
+				8887A3E3179224EE0097037C /* Frameworks */,
+				8887A3E4179224EE0097037C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8887A3EC179224EE0097037C /* PBXTargetDependency */,
+			);
+			name = "Recipe 4-6 :Creating a flag picker collection viewTests";
+			productName = "Recipe 4-6 :Creating a flag picker collection viewTests";
+			productReference = 8887A3E6179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection viewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8887A3BD179224EE0097037C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					8887A3E5179224EE0097037C = {
+						TestTargetID = 8887A3C4179224EE0097037C;
+					};
+				};
+			};
+			buildConfigurationList = 8887A3C0179224EE0097037C /* Build configuration list for PBXProject "Recipe 4-6 :Creating a flag picker collection view" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8887A3BC179224EE0097037C;
+			productRefGroup = 8887A3C6179224EE0097037C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8887A3C4179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view */,
+				8887A3E5179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection viewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8887A3C3179224EE0097037C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8887A438179225370097037C /* United_States.png in Resources */,
+				8887A430179225370097037C /* Poland.png in Resources */,
+				8887A42D179225370097037C /* Morocco.png in Resources */,
+				8887A431179225370097037C /* Russia.png in Resources */,
+				8887A41E179225370097037C /* Canada.png in Resources */,
+				8887A41F179225370097037C /* Chile.png in Resources */,
+				8887A429179225370097037C /* Kenya.png in Resources */,
+				8887A41C179225370097037C /* Australia.png in Resources */,
+				8887A433179225370097037C /* South_Africa.png in Resources */,
+				8887A3E1179224EE0097037C /* Images.xcassets in Resources */,
+				8887A421179225370097037C /* France.png in Resources */,
+				8887A425179225370097037C /* India.png in Resources */,
+				8887A434179225370097037C /* Spain.png in Resources */,
+				8887A41B179225370097037C /* Argentina.png in Resources */,
+				8887A42E179225370097037C /* Mozambique.png in Resources */,
+				8887A42F179225370097037C /* New_Zealand.png in Resources */,
+				8887A41D179225370097037C /* Brazil.png in Resources */,
+				8887A42A179225370097037C /* Malta.png in Resources */,
+				8887A3D3179224EE0097037C /* InfoPlist.strings in Resources */,
+				8887A422179225370097037C /* Germany.png in Resources */,
+				8887A432179225370097037C /* Rwanda.png in Resources */,
+				8887A420179225370097037C /* China.png in Resources */,
+				8887A424179225370097037C /* Iceland.png in Resources */,
+				8887A437179225370097037C /* United_Kingdom.png in Resources */,
+				8887A426179225370097037C /* Ireland.png in Resources */,
+				8887A435179225370097037C /* Sweden.png in Resources */,
+				8887A3DC179224EE0097037C /* Main.storyboard in Resources */,
+				8887A436179225370097037C /* Turkey.png in Resources */,
+				8887A42C179225370097037C /* Mongolia.png in Resources */,
+				8887A423179225370097037C /* Ghana.png in Resources */,
+				8887A428179225370097037C /* Japan.png in Resources */,
+				8887A42B179225370097037C /* Mexico.png in Resources */,
+				8887A427179225370097037C /* Italy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8887A3E4179224EE0097037C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8887A3F2179224EE0097037C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8887A3C1179224EE0097037C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8887A440179228F40097037C /* FlagPickerViewController.m in Sources */,
+				8887A3DF179224EE0097037C /* ViewController.m in Sources */,
+				884A48CF1794C65E0098E250 /* ContinentHeader.m in Sources */,
+				8887A3D9179224EE0097037C /* AppDelegate.m in Sources */,
+				8887A44417922EB90097037C /* FlagCell.m in Sources */,
+				8887A3D5179224EE0097037C /* main.m in Sources */,
+				8887A43C179227DA0097037C /* Flag.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8887A3E2179224EE0097037C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8887A3F4179224EE0097037C /* Recipe_4_6__Creating_a_flag_picker_collection_viewTests.m in Sources */,
+				8887A441179228F40097037C /* FlagPickerViewController.m in Sources */,
+				884A48D01794C65E0098E250 /* ContinentHeader.m in Sources */,
+				8887A43D179227DA0097037C /* Flag.m in Sources */,
+				8887A44517922EB90097037C /* FlagCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8887A3EC179224EE0097037C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8887A3C4179224EE0097037C /* Recipe 4-6 :Creating a flag picker collection view */;
+			targetProxy = 8887A3EB179224EE0097037C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8887A3D1179224EE0097037C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8887A3D2179224EE0097037C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8887A3DA179224EE0097037C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8887A3DB179224EE0097037C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8887A3F0179224EE0097037C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8887A3F1179224EE0097037C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8887A3F5179224EE0097037C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8887A3F6179224EE0097037C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8887A3F8179224EE0097037C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4-6 :Creating a flag picker collection view/Recipe 4-6 :Creating a flag picker collection view-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4-6 :Creating a flag picker collection view/Recipe 4-6 :Creating a flag picker collection view-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8887A3F9179224EE0097037C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4-6 :Creating a flag picker collection view/Recipe 4-6 :Creating a flag picker collection view-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4-6 :Creating a flag picker collection view/Recipe 4-6 :Creating a flag picker collection view-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8887A3FB179224EE0097037C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 4-6 :Creating a flag picker collection view.app/Recipe 4-6 :Creating a flag picker collection view";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4-6 :Creating a flag picker collection view/Recipe 4-6 :Creating a flag picker collection view-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 4-6 :Creating a flag picker collection viewTests/Recipe 4-6 :Creating a flag picker collection viewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8887A3FC179224EE0097037C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 4-6 :Creating a flag picker collection view.app/Recipe 4-6 :Creating a flag picker collection view";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4-6 :Creating a flag picker collection view/Recipe 4-6 :Creating a flag picker collection view-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4-6 :Creating a flag picker collection viewTests/Recipe 4-6 :Creating a flag picker collection viewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8887A3C0179224EE0097037C /* Build configuration list for PBXProject "Recipe 4-6 :Creating a flag picker collection view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8887A3F5179224EE0097037C /* Debug */,
+				8887A3F6179224EE0097037C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8887A3F7179224EE0097037C /* Build configuration list for PBXNativeTarget "Recipe 4-6 :Creating a flag picker collection view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8887A3F8179224EE0097037C /* Debug */,
+				8887A3F9179224EE0097037C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8887A3FA179224EE0097037C /* Build configuration list for PBXNativeTarget "Recipe 4-6 :Creating a flag picker collection viewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8887A3FB179224EE0097037C /* Debug */,
+				8887A3FC179224EE0097037C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8887A3BD179224EE0097037C /* Project object */;
+}

@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88750AD2178FAB300078548E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88750AD1178FAB300078548E /* Foundation.framework */; };
+		88750AD4178FAB300078548E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88750AD3178FAB300078548E /* CoreGraphics.framework */; };
+		88750AD6178FAB300078548E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88750AD5178FAB300078548E /* UIKit.framework */; };
+		88750ADC178FAB300078548E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88750ADA178FAB300078548E /* InfoPlist.strings */; };
+		88750ADE178FAB300078548E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88750ADD178FAB300078548E /* main.m */; };
+		88750AE2178FAB300078548E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88750AE1178FAB300078548E /* AppDelegate.m */; };
+		88750AE4178FAB300078548E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88750AE3178FAB300078548E /* Images.xcassets */; };
+		88750AEB178FAB300078548E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88750AEA178FAB300078548E /* XCTest.framework */; };
+		88750AEC178FAB300078548E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88750AD1178FAB300078548E /* Foundation.framework */; };
+		88750AED178FAB300078548E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88750AD5178FAB300078548E /* UIKit.framework */; };
+		88750AF5178FAB300078548E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88750AF3178FAB300078548E /* InfoPlist.strings */; };
+		88750AF7178FAB300078548E /* Recipe_4_1_to_4_5__Creating_UITableViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88750AF6178FAB300078548E /* Recipe_4_1_to_4_5__Creating_UITableViewsTests.m */; };
+		88750B03178FABEA0078548E /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88750B01178FABEA0078548E /* MainTableViewController.m */; };
+		88750B04178FABEA0078548E /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88750B01178FABEA0078548E /* MainTableViewController.m */; };
+		88750B05178FABEA0078548E /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88750B02178FABEA0078548E /* MainTableViewController.xib */; };
+		88750B06178FABEA0078548E /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88750B02178FABEA0078548E /* MainTableViewController.xib */; };
+		88750B09178FAFF00078548E /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 88750B08178FAFF00078548E /* Country.m */; };
+		88750B0A178FAFF00078548E /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 88750B08178FAFF00078548E /* Country.m */; };
+		88750B10178FB15A0078548E /* england.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0B178FB15A0078548E /* england.png */; };
+		88750B11178FB15A0078548E /* england.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0B178FB15A0078548E /* england.png */; };
+		88750B12178FB15A0078548E /* france.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0C178FB15A0078548E /* france.png */; };
+		88750B13178FB15A0078548E /* france.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0C178FB15A0078548E /* france.png */; };
+		88750B14178FB15A0078548E /* Scotland.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0D178FB15A0078548E /* Scotland.png */; };
+		88750B15178FB15A0078548E /* Scotland.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0D178FB15A0078548E /* Scotland.png */; };
+		88750B16178FB15A0078548E /* spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0E178FB15A0078548E /* spain.png */; };
+		88750B17178FB15A0078548E /* spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0E178FB15A0078548E /* spain.png */; };
+		88750B18178FB15A0078548E /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0F178FB15A0078548E /* usa.png */; };
+		88750B19178FB15A0078548E /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 88750B0F178FB15A0078548E /* usa.png */; };
+		88750B20178FBF220078548E /* CountryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88750B1E178FBF220078548E /* CountryDetailsViewController.m */; };
+		88750B21178FBF220078548E /* CountryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88750B1E178FBF220078548E /* CountryDetailsViewController.m */; };
+		88750B22178FBF220078548E /* CountryDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88750B1F178FBF220078548E /* CountryDetailsViewController.xib */; };
+		88750B23178FBF220078548E /* CountryDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88750B1F178FBF220078548E /* CountryDetailsViewController.xib */; };
+		8887A3BA17921AB80097037C /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A3B917921AB80097037C /* CountryCell.m */; };
+		8887A3BB17921AB80097037C /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A3B917921AB80097037C /* CountryCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88750AEE178FAB300078548E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88750AC6178FAB300078548E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88750ACD178FAB300078548E;
+			remoteInfo = "Recipe 4-1 to 4-5: Creating UITableViews";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88750ACE178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 4-1 to 4-5 Creating UITableViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88750AD1178FAB300078548E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88750AD3178FAB300078548E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88750AD5178FAB300078548E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88750AD9178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 4-1 to 4-5 Creating UITableViews-Info.plist"; sourceTree = "<group>"; };
+		88750ADB178FAB300078548E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88750ADD178FAB300078548E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88750ADF178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 4-1 to 4-5 Creating UITableViews-Prefix.pch"; sourceTree = "<group>"; };
+		88750AE0178FAB300078548E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88750AE1178FAB300078548E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88750AE3178FAB300078548E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88750AE9178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 4-1 to 4-5 Creating UITableViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88750AEA178FAB300078548E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88750AF2178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 4-1 to 4-5 Creating UITableViewsTests-Info.plist"; sourceTree = "<group>"; };
+		88750AF4178FAB300078548E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88750AF6178FAB300078548E /* Recipe_4_1_to_4_5__Creating_UITableViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_4_1_to_4_5__Creating_UITableViewsTests.m; sourceTree = "<group>"; };
+		88750B00178FABEA0078548E /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		88750B01178FABEA0078548E /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		88750B02178FABEA0078548E /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		88750B07178FAFF00078548E /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		88750B08178FAFF00078548E /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		88750B0B178FB15A0078548E /* england.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = england.png; sourceTree = "<group>"; };
+		88750B0C178FB15A0078548E /* france.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = france.png; sourceTree = "<group>"; };
+		88750B0D178FB15A0078548E /* Scotland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scotland.png; sourceTree = "<group>"; };
+		88750B0E178FB15A0078548E /* spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spain.png; sourceTree = "<group>"; };
+		88750B0F178FB15A0078548E /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
+		88750B1D178FBF220078548E /* CountryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryDetailsViewController.h; sourceTree = "<group>"; };
+		88750B1E178FBF220078548E /* CountryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryDetailsViewController.m; sourceTree = "<group>"; };
+		88750B1F178FBF220078548E /* CountryDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryDetailsViewController.xib; sourceTree = "<group>"; };
+		8887A3B817921AB80097037C /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCell.h; sourceTree = "<group>"; };
+		8887A3B917921AB80097037C /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88750ACB178FAB300078548E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88750AD4178FAB300078548E /* CoreGraphics.framework in Frameworks */,
+				88750AD6178FAB300078548E /* UIKit.framework in Frameworks */,
+				88750AD2178FAB300078548E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88750AE6178FAB300078548E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88750AEB178FAB300078548E /* XCTest.framework in Frameworks */,
+				88750AED178FAB300078548E /* UIKit.framework in Frameworks */,
+				88750AEC178FAB300078548E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88750AC5178FAB300078548E = {
+			isa = PBXGroup;
+			children = (
+				88750B00178FABEA0078548E /* MainTableViewController.h */,
+				88750B01178FABEA0078548E /* MainTableViewController.m */,
+				8887A3B817921AB80097037C /* CountryCell.h */,
+				8887A3B917921AB80097037C /* CountryCell.m */,
+				88750B1D178FBF220078548E /* CountryDetailsViewController.h */,
+				88750B1E178FBF220078548E /* CountryDetailsViewController.m */,
+				88750B1F178FBF220078548E /* CountryDetailsViewController.xib */,
+				88750B07178FAFF00078548E /* Country.h */,
+				88750B08178FAFF00078548E /* Country.m */,
+				88750B02178FABEA0078548E /* MainTableViewController.xib */,
+				88750AD7178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews */,
+				88750AF0178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViewsTests */,
+				88750AD0178FAB300078548E /* Frameworks */,
+				88750ACF178FAB300078548E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88750ACF178FAB300078548E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88750ACE178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews.app */,
+				88750AE9178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88750AD0178FAB300078548E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88750AD1178FAB300078548E /* Foundation.framework */,
+				88750AD3178FAB300078548E /* CoreGraphics.framework */,
+				88750AD5178FAB300078548E /* UIKit.framework */,
+				88750AEA178FAB300078548E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88750AD7178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews */ = {
+			isa = PBXGroup;
+			children = (
+				88750AE0178FAB300078548E /* AppDelegate.h */,
+				88750AE1178FAB300078548E /* AppDelegate.m */,
+				88750AE3178FAB300078548E /* Images.xcassets */,
+				88750AD8178FAB300078548E /* Supporting Files */,
+			);
+			name = "Recipe 4-1 to 4-5 Creating UITableViews";
+			path = "Recipe 4-1 to 4-5: Creating UITableViews";
+			sourceTree = "<group>";
+		};
+		88750AD8178FAB300078548E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88750B0B178FB15A0078548E /* england.png */,
+				88750B0C178FB15A0078548E /* france.png */,
+				88750B0D178FB15A0078548E /* Scotland.png */,
+				88750B0E178FB15A0078548E /* spain.png */,
+				88750B0F178FB15A0078548E /* usa.png */,
+				88750AD9178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews-Info.plist */,
+				88750ADA178FAB300078548E /* InfoPlist.strings */,
+				88750ADD178FAB300078548E /* main.m */,
+				88750ADF178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88750AF0178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				88750AF6178FAB300078548E /* Recipe_4_1_to_4_5__Creating_UITableViewsTests.m */,
+				88750AF1178FAB300078548E /* Supporting Files */,
+			);
+			name = "Recipe 4-1 to 4-5 Creating UITableViewsTests";
+			path = "Recipe 4-1 to 4-5: Creating UITableViewsTests";
+			sourceTree = "<group>";
+		};
+		88750AF1178FAB300078548E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88750AF2178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViewsTests-Info.plist */,
+				88750AF3178FAB300078548E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88750ACD178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88750AFA178FAB300078548E /* Build configuration list for PBXNativeTarget "Recipe 4-1 to 4-5 Creating UITableViews" */;
+			buildPhases = (
+				88750ACA178FAB300078548E /* Sources */,
+				88750ACB178FAB300078548E /* Frameworks */,
+				88750ACC178FAB300078548E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 4-1 to 4-5 Creating UITableViews";
+			productName = "Recipe 4-1 to 4-5: Creating UITableViews";
+			productReference = 88750ACE178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88750AE8178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88750AFD178FAB300078548E /* Build configuration list for PBXNativeTarget "Recipe 4-1 to 4-5 Creating UITableViewsTests" */;
+			buildPhases = (
+				88750AE5178FAB300078548E /* Sources */,
+				88750AE6178FAB300078548E /* Frameworks */,
+				88750AE7178FAB300078548E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88750AEF178FAB300078548E /* PBXTargetDependency */,
+			);
+			name = "Recipe 4-1 to 4-5 Creating UITableViewsTests";
+			productName = "Recipe 4-1 to 4-5: Creating UITableViewsTests";
+			productReference = 88750AE9178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88750AC6178FAB300078548E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					88750AE8178FAB300078548E = {
+						TestTargetID = 88750ACD178FAB300078548E;
+					};
+				};
+			};
+			buildConfigurationList = 88750AC9178FAB300078548E /* Build configuration list for PBXProject "Recipe 4-1 to 4-5 Creating UITableViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88750AC5178FAB300078548E;
+			productRefGroup = 88750ACF178FAB300078548E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88750ACD178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews */,
+				88750AE8178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88750ACC178FAB300078548E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88750B12178FB15A0078548E /* france.png in Resources */,
+				88750B14178FB15A0078548E /* Scotland.png in Resources */,
+				88750ADC178FAB300078548E /* InfoPlist.strings in Resources */,
+				88750B18178FB15A0078548E /* usa.png in Resources */,
+				88750B05178FABEA0078548E /* MainTableViewController.xib in Resources */,
+				88750AE4178FAB300078548E /* Images.xcassets in Resources */,
+				88750B22178FBF220078548E /* CountryDetailsViewController.xib in Resources */,
+				88750B10178FB15A0078548E /* england.png in Resources */,
+				88750B16178FB15A0078548E /* spain.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88750AE7178FAB300078548E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88750B13178FB15A0078548E /* france.png in Resources */,
+				88750B17178FB15A0078548E /* spain.png in Resources */,
+				88750B19178FB15A0078548E /* usa.png in Resources */,
+				88750B23178FBF220078548E /* CountryDetailsViewController.xib in Resources */,
+				88750B06178FABEA0078548E /* MainTableViewController.xib in Resources */,
+				88750B15178FB15A0078548E /* Scotland.png in Resources */,
+				88750B11178FB15A0078548E /* england.png in Resources */,
+				88750AF5178FAB300078548E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88750ACA178FAB300078548E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88750B09178FAFF00078548E /* Country.m in Sources */,
+				88750AE2178FAB300078548E /* AppDelegate.m in Sources */,
+				88750ADE178FAB300078548E /* main.m in Sources */,
+				88750B20178FBF220078548E /* CountryDetailsViewController.m in Sources */,
+				8887A3BA17921AB80097037C /* CountryCell.m in Sources */,
+				88750B03178FABEA0078548E /* MainTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88750AE5178FAB300078548E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88750B04178FABEA0078548E /* MainTableViewController.m in Sources */,
+				8887A3BB17921AB80097037C /* CountryCell.m in Sources */,
+				88750B0A178FAFF00078548E /* Country.m in Sources */,
+				88750AF7178FAB300078548E /* Recipe_4_1_to_4_5__Creating_UITableViewsTests.m in Sources */,
+				88750B21178FBF220078548E /* CountryDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88750AEF178FAB300078548E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88750ACD178FAB300078548E /* Recipe 4-1 to 4-5 Creating UITableViews */;
+			targetProxy = 88750AEE178FAB300078548E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88750ADA178FAB300078548E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88750ADB178FAB300078548E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88750AF3178FAB300078548E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88750AF4178FAB300078548E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88750AF8178FAB300078548E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88750AF9178FAB300078548E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88750AFB178FAB300078548E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4-1 to 4-5: Creating UITableViews/Recipe 4-1 to 4-5 Creating UITableViews-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4-1 to 4-5: Creating UITableViews/Recipe 4-1 to 4-5 Creating UITableViews-Info.plist";
+				PRODUCT_NAME = "Recipe 4-1 to 4-5 Creating UITableViews";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88750AFC178FAB300078548E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4-1 to 4-5: Creating UITableViews/Recipe 4-1 to 4-5 Creating UITableViews-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4-1 to 4-5: Creating UITableViews/Recipe 4-1 to 4-5 Creating UITableViews-Info.plist";
+				PRODUCT_NAME = "Recipe 4-1 to 4-5 Creating UITableViews";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88750AFE178FAB300078548E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 4-1 to 4-5: Creating UITableViews.app/Recipe 4-1 to 4-5: Creating UITableViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4-1 to 4-5: Creating UITableViews/Recipe 4-1 to 4-5: Creating UITableViews-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 4-1 to 4-5: Creating UITableViewsTests/Recipe 4-1 to 4-5 Creating UITableViewsTests-Info.plist";
+				PRODUCT_NAME = "Recipe 4-1 to 4-5 Creating UITableViewsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88750AFF178FAB300078548E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 4-1 to 4-5: Creating UITableViews.app/Recipe 4-1 to 4-5: Creating UITableViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 4-1 to 4-5: Creating UITableViews/Recipe 4-1 to 4-5: Creating UITableViews-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 4-1 to 4-5: Creating UITableViewsTests/Recipe 4-1 to 4-5 Creating UITableViewsTests-Info.plist";
+				PRODUCT_NAME = "Recipe 4-1 to 4-5 Creating UITableViewsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88750AC9178FAB300078548E /* Build configuration list for PBXProject "Recipe 4-1 to 4-5 Creating UITableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88750AF8178FAB300078548E /* Debug */,
+				88750AF9178FAB300078548E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88750AFA178FAB300078548E /* Build configuration list for PBXNativeTarget "Recipe 4-1 to 4-5 Creating UITableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88750AFB178FAB300078548E /* Debug */,
+				88750AFC178FAB300078548E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88750AFD178FAB300078548E /* Build configuration list for PBXNativeTarget "Recipe 4-1 to 4-5 Creating UITableViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88750AFE178FAB300078548E /* Debug */,
+				88750AFF178FAB300078548E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88750AC6178FAB300078548E /* Project object */;
+}

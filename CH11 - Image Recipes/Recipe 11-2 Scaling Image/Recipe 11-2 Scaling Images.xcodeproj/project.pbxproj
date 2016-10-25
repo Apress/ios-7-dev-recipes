@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88BB65F317E2B13400F11FEA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BB65F217E2B13400F11FEA /* CoreImage.framework */; };
+		88E080F517CFBF99008D2206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E080F417CFBF99008D2206 /* Foundation.framework */; };
+		88E080F717CFBF99008D2206 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E080F617CFBF99008D2206 /* CoreGraphics.framework */; };
+		88E080F917CFBF99008D2206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E080F817CFBF99008D2206 /* UIKit.framework */; };
+		88E080FF17CFBF99008D2206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88E080FD17CFBF99008D2206 /* InfoPlist.strings */; };
+		88E0810117CFBF99008D2206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0810017CFBF99008D2206 /* main.m */; };
+		88E0810517CFBF99008D2206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0810417CFBF99008D2206 /* AppDelegate.m */; };
+		88E0810817CFBF99008D2206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E0810617CFBF99008D2206 /* Main.storyboard */; };
+		88E0810B17CFBF99008D2206 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0810A17CFBF99008D2206 /* MasterViewController.m */; };
+		88E0810E17CFBF99008D2206 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0810D17CFBF99008D2206 /* DetailViewController.m */; };
+		88E0811017CFBF9A008D2206 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E0810F17CFBF9A008D2206 /* Images.xcassets */; };
+		88E0811717CFBF9A008D2206 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E0811617CFBF9A008D2206 /* XCTest.framework */; };
+		88E0811817CFBF9A008D2206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E080F417CFBF99008D2206 /* Foundation.framework */; };
+		88E0811917CFBF9A008D2206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E080F817CFBF99008D2206 /* UIKit.framework */; };
+		88E0812117CFBF9A008D2206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88E0811F17CFBF9A008D2206 /* InfoPlist.strings */; };
+		88E0812317CFBF9A008D2206 /* Recipe_11_1_Using_Image_ViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0812217CFBF9A008D2206 /* Recipe_11_1_Using_Image_ViewsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88E0811A17CFBF9A008D2206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88E080E917CFBF99008D2206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E080F017CFBF99008D2206;
+			remoteInfo = "Recipe 11-1 Using Image Views";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88BB65F217E2B13400F11FEA /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		88E080F117CFBF99008D2206 /* Recipe 11-2 Scaling Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 11-2 Scaling Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E080F417CFBF99008D2206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88E080F617CFBF99008D2206 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88E080F817CFBF99008D2206 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88E080FC17CFBF99008D2206 /* Recipe 11-2 Scaling Images-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 11-2 Scaling Images-Info.plist"; sourceTree = "<group>"; };
+		88E080FE17CFBF99008D2206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88E0810017CFBF99008D2206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88E0810217CFBF99008D2206 /* Recipe 11-2 Scaling Images-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe 11-2 Scaling Images-Prefix.pch"; sourceTree = "<group>"; };
+		88E0810317CFBF99008D2206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88E0810417CFBF99008D2206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88E0810717CFBF99008D2206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88E0810917CFBF99008D2206 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		88E0810A17CFBF99008D2206 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		88E0810C17CFBF99008D2206 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		88E0810D17CFBF99008D2206 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		88E0810F17CFBF9A008D2206 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88E0811517CFBF9A008D2206 /* Recipe 11-2 Scaling ImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe 11-2 Scaling ImagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E0811617CFBF9A008D2206 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88E0811E17CFBF9A008D2206 /* Recipe 11-2 Scaling ImagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 11-2 Scaling ImagesTests-Info.plist"; sourceTree = "<group>"; };
+		88E0812017CFBF9A008D2206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88E0812217CFBF9A008D2206 /* Recipe_11_1_Using_Image_ViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_11_1_Using_Image_ViewsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88E080EE17CFBF99008D2206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BB65F317E2B13400F11FEA /* CoreImage.framework in Frameworks */,
+				88E080F717CFBF99008D2206 /* CoreGraphics.framework in Frameworks */,
+				88E080F917CFBF99008D2206 /* UIKit.framework in Frameworks */,
+				88E080F517CFBF99008D2206 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E0811217CFBF9A008D2206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E0811717CFBF9A008D2206 /* XCTest.framework in Frameworks */,
+				88E0811917CFBF9A008D2206 /* UIKit.framework in Frameworks */,
+				88E0811817CFBF9A008D2206 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88E080E817CFBF99008D2206 = {
+			isa = PBXGroup;
+			children = (
+				88E080FA17CFBF99008D2206 /* Recipe 11-2 Scaling Images */,
+				88E0811C17CFBF9A008D2206 /* Recipe 11-2 Scaling Images Tests */,
+				88E080F317CFBF99008D2206 /* Frameworks */,
+				88E080F217CFBF99008D2206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88E080F217CFBF99008D2206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88E080F117CFBF99008D2206 /* Recipe 11-2 Scaling Images.app */,
+				88E0811517CFBF9A008D2206 /* Recipe 11-2 Scaling ImagesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E080F317CFBF99008D2206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88BB65F217E2B13400F11FEA /* CoreImage.framework */,
+				88E080F417CFBF99008D2206 /* Foundation.framework */,
+				88E080F617CFBF99008D2206 /* CoreGraphics.framework */,
+				88E080F817CFBF99008D2206 /* UIKit.framework */,
+				88E0811617CFBF9A008D2206 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88E080FA17CFBF99008D2206 /* Recipe 11-2 Scaling Images */ = {
+			isa = PBXGroup;
+			children = (
+				88E0810317CFBF99008D2206 /* AppDelegate.h */,
+				88E0810417CFBF99008D2206 /* AppDelegate.m */,
+				88E0810617CFBF99008D2206 /* Main.storyboard */,
+				88E0810917CFBF99008D2206 /* MasterViewController.h */,
+				88E0810A17CFBF99008D2206 /* MasterViewController.m */,
+				88E0810C17CFBF99008D2206 /* DetailViewController.h */,
+				88E0810D17CFBF99008D2206 /* DetailViewController.m */,
+				88E0810F17CFBF9A008D2206 /* Images.xcassets */,
+				88E080FB17CFBF99008D2206 /* Supporting Files */,
+			);
+			name = "Recipe 11-2 Scaling Images";
+			path = "Recipe 11-1 Using Image Views";
+			sourceTree = "<group>";
+		};
+		88E080FB17CFBF99008D2206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E080FC17CFBF99008D2206 /* Recipe 11-2 Scaling Images-Info.plist */,
+				88E080FD17CFBF99008D2206 /* InfoPlist.strings */,
+				88E0810017CFBF99008D2206 /* main.m */,
+				88E0810217CFBF99008D2206 /* Recipe 11-2 Scaling Images-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88E0811C17CFBF9A008D2206 /* Recipe 11-2 Scaling Images Tests */ = {
+			isa = PBXGroup;
+			children = (
+				88E0812217CFBF9A008D2206 /* Recipe_11_1_Using_Image_ViewsTests.m */,
+				88E0811D17CFBF9A008D2206 /* Supporting Files */,
+			);
+			name = "Recipe 11-2 Scaling Images Tests";
+			path = "Recipe 11-1 Using Image ViewsTests";
+			sourceTree = "<group>";
+		};
+		88E0811D17CFBF9A008D2206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E0811E17CFBF9A008D2206 /* Recipe 11-2 Scaling ImagesTests-Info.plist */,
+				88E0811F17CFBF9A008D2206 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88E080F017CFBF99008D2206 /* Recipe 11-2 Scaling Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E0812617CFBF9A008D2206 /* Build configuration list for PBXNativeTarget "Recipe 11-2 Scaling Images" */;
+			buildPhases = (
+				88E080ED17CFBF99008D2206 /* Sources */,
+				88E080EE17CFBF99008D2206 /* Frameworks */,
+				88E080EF17CFBF99008D2206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe 11-2 Scaling Images";
+			productName = "Recipe 11-1 Using Image Views";
+			productReference = 88E080F117CFBF99008D2206 /* Recipe 11-2 Scaling Images.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88E0811417CFBF9A008D2206 /* Recipe 11-2 Scaling ImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E0812917CFBF9A008D2206 /* Build configuration list for PBXNativeTarget "Recipe 11-2 Scaling ImagesTests" */;
+			buildPhases = (
+				88E0811117CFBF9A008D2206 /* Sources */,
+				88E0811217CFBF9A008D2206 /* Frameworks */,
+				88E0811317CFBF9A008D2206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E0811B17CFBF9A008D2206 /* PBXTargetDependency */,
+			);
+			name = "Recipe 11-2 Scaling ImagesTests";
+			productName = "Recipe 11-1 Using Image ViewsTests";
+			productReference = 88E0811517CFBF9A008D2206 /* Recipe 11-2 Scaling ImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88E080E917CFBF99008D2206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NSCookbook;
+				TargetAttributes = {
+					88E0811417CFBF9A008D2206 = {
+						TestTargetID = 88E080F017CFBF99008D2206;
+					};
+				};
+			};
+			buildConfigurationList = 88E080EC17CFBF99008D2206 /* Build configuration list for PBXProject "Recipe 11-2 Scaling Images" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88E080E817CFBF99008D2206;
+			productRefGroup = 88E080F217CFBF99008D2206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E080F017CFBF99008D2206 /* Recipe 11-2 Scaling Images */,
+				88E0811417CFBF9A008D2206 /* Recipe 11-2 Scaling ImagesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88E080EF17CFBF99008D2206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E0811017CFBF9A008D2206 /* Images.xcassets in Resources */,
+				88E080FF17CFBF99008D2206 /* InfoPlist.strings in Resources */,
+				88E0810817CFBF99008D2206 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E0811317CFBF9A008D2206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E0812117CFBF9A008D2206 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88E080ED17CFBF99008D2206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E0810517CFBF99008D2206 /* AppDelegate.m in Sources */,
+				88E0810B17CFBF99008D2206 /* MasterViewController.m in Sources */,
+				88E0810117CFBF99008D2206 /* main.m in Sources */,
+				88E0810E17CFBF99008D2206 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E0811117CFBF9A008D2206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E0812317CFBF9A008D2206 /* Recipe_11_1_Using_Image_ViewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88E0811B17CFBF9A008D2206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88E080F017CFBF99008D2206 /* Recipe 11-2 Scaling Images */;
+			targetProxy = 88E0811A17CFBF9A008D2206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88E080FD17CFBF99008D2206 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E080FE17CFBF99008D2206 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88E0810617CFBF99008D2206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E0810717CFBF99008D2206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88E0811F17CFBF9A008D2206 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E0812017CFBF9A008D2206 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88E0812417CFBF9A008D2206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		88E0812517CFBF9A008D2206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88E0812717CFBF9A008D2206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 11-1 Using Image Views/Recipe 11-2 Scaling Images-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 11-1 Using Image Views/Recipe 11-2 Scaling Images-Info.plist";
+				PRODUCT_NAME = "Recipe 11-2 Scaling Images";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88E0812817CFBF9A008D2206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 11-1 Using Image Views/Recipe 11-2 Scaling Images-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 11-1 Using Image Views/Recipe 11-2 Scaling Images-Info.plist";
+				PRODUCT_NAME = "Recipe 11-2 Scaling Images";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88E0812A17CFBF9A008D2206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 11-1 Using Image Views.app/Recipe 11-1 Using Image Views";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 11-1 Using Image Views/Recipe 11-1 Using Image Views-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe 11-1 Using Image ViewsTests/Recipe 11-2 Scaling ImagesTests-Info.plist";
+				PRODUCT_NAME = "Recipe 11-2 Scaling ImagesTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88E0812B17CFBF9A008D2206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe 11-1 Using Image Views.app/Recipe 11-1 Using Image Views";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe 11-1 Using Image Views/Recipe 11-1 Using Image Views-Prefix.pch";
+				INFOPLIST_FILE = "Recipe 11-1 Using Image ViewsTests/Recipe 11-2 Scaling ImagesTests-Info.plist";
+				PRODUCT_NAME = "Recipe 11-2 Scaling ImagesTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88E080EC17CFBF99008D2206 /* Build configuration list for PBXProject "Recipe 11-2 Scaling Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E0812417CFBF9A008D2206 /* Debug */,
+				88E0812517CFBF9A008D2206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E0812617CFBF9A008D2206 /* Build configuration list for PBXNativeTarget "Recipe 11-2 Scaling Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E0812717CFBF9A008D2206 /* Debug */,
+				88E0812817CFBF9A008D2206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E0812917CFBF9A008D2206 /* Build configuration list for PBXNativeTarget "Recipe 11-2 Scaling ImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E0812A17CFBF9A008D2206 /* Debug */,
+				88E0812B17CFBF9A008D2206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88E080E917CFBF99008D2206 /* Project object */;
+}
